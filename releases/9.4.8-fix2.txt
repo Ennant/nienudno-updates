@@ -1,0 +1,6 @@
+Nienudno 9.4.8-fix2
+Sequence: 202610041301
+Signed publisher authority: unchanged.
+Changes: responsive launcher preview/list; A1.1 hands and WASD onboarding; Enter mission start; centered title screen; 10 percent smaller corner text; 10 percent larger and more visible XYZ; protected diagnostic upload with bounded offline queue; automatic safe update continuation for supported local sessions.
+Snapshots: 29 reporting/UI checks, 18 saved-session checks, 7 WPF checks; native Minecraft A1.1 and title/HUD checks passed on HP. Physical T450 and complete update/restart of a running game remain unverified.
+Existing repair944plus helper downloads this latest signed feed. No school network, account login or owner PC needed for normal updates.
