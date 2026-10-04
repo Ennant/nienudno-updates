@@ -1,0 +1,5 @@
+Nienudno 9.4.8-fix3
+
+Mission preview presentation repair: remove obsolete decorative moon, portal and scene rectangles over mission photographs; opaque full-card artwork; geometry-clipped rounded outer and inner corners, including software rendering; rounded dark heading backing for readable titles on bright mission artwork.
+
+Compared three visual layouts at logical widths 682, 911 and 1366. Final actual First Training artwork passed 37 software-rendered checks, including twelve contrasting corner-pixel checks and repeated-resize single-wrapper checks. Frozen fix2 launcher: one original method changed; twelve embedded resources unchanged. No changes to mods, mission worlds, gameplay or player saves. Physical T450 rendering remains unverified.
