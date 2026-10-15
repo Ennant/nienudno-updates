@@ -1,0 +1,5 @@
+{
+  "status": "REJECTED_DO_NOT_ACTIVATE",
+  "releaseId": "9.7-complete21-creative-filter1",
+  "reason": "Forge1165 actual runtime rejected inherited container shadow. Corrected addon qualified in creative-worlds1 candidate; stable20 retained."
+}
