@@ -1,0 +1,5 @@
+{
+  "status": "REJECTED_DO_NOT_ACTIVATE",
+  "releaseId": "9.7-complete21-creative-worlds2",
+  "reason": "Actual native BuildProcess refused updated Client189 against inherited Launcher catalog pin; fixed exact catalog hash/length in worlds3 candidate. No JVM started. Stable20 retained."
+}
