@@ -1,9 +1,5 @@
 {
-  "status": "CANDIDATE_NOT_ACTIVE_GAMEPLAY_TRANSPORT_GATES_PENDING",
+  "status": "SUPERSEDED_DO_NOT_ACTIVATE",
   "releaseId": "9.7-complete21-creative-worlds6",
-  "manifestSHA256": "802BDF021F5865805C52450844E5A4518290E0824E6BF5CD0D7A447661262705",
-  "feedSHA256": "A102394E9A7929FC218FEDCAA902259E508B8C583430D00D6BFA278FA33EB060",
-  "sequence": 202610151205,
-  "files": 9195,
-  "stableReleaseRetained": "9.7-complete20-lod-camera-capes-a21-1"
+  "reason": "Forge code-only resource pack metadata required completion. Superseded by candidate worlds7; stable20 retained until final qualification."
 }

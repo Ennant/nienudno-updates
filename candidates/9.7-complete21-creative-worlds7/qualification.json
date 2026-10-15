@@ -1,0 +1,10 @@
+{
+  "status": "CANDIDATE_NOT_ACTIVE_PREMIUM_GAMEPLAY_AND_FINAL_TRANSPORT_PENDING",
+  "releaseId": "9.7-complete21-creative-worlds7",
+  "manifestSHA256": "FA7989B3D9D98A9F84846DDD22E40204DDC1BD3E3D5D856076F9AEA6AE5DF36E",
+  "feedSHA256": "FFF191813D223EFC3C4C16B13053B8A361BBB0BC547CCEBE140428AAAD8264EB",
+  "sequence": 202610151206,
+  "files": 9196,
+  "nativeRSAAndAllFilesVerified": true,
+  "stableReleaseRetained": "9.7-complete20-lod-camera-capes-a21-1"
+}
