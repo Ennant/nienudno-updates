@@ -1,10 +1,17 @@
 {
-  "status": "CANDIDATE_NOT_ACTIVE_PREMIUM_GAMEPLAY_AND_FINAL_TRANSPORT_PENDING",
+  "status": "QUALIFIED_72_SOURCE_LINKED_SCOPED_ENTRY_SAVE_AND_FINAL7_PREMIUM",
   "releaseId": "9.7-complete21-creative-worlds7",
   "manifestSHA256": "FA7989B3D9D98A9F84846DDD22E40204DDC1BD3E3D5D856076F9AEA6AE5DF36E",
   "feedSHA256": "FFF191813D223EFC3C4C16B13053B8A361BBB0BC547CCEBE140428AAAD8264EB",
   "sequence": 202610151206,
   "files": 9196,
   "nativeRSAAndAllFilesVerified": true,
-  "stableReleaseRetained": "9.7-complete20-lod-camera-capes-a21-1"
+  "coverage72ReceiptSHA256": "F3CB7CA0AC0B42AE79A45AAC0DF11C6DF6EBCC6B97A6A698ED31EFE26FA6C173",
+  "actualFinal7PremiumAuditSHA256": "56A9364AC1FB4CF036DC53DD7E046A4BE0CA2EBE5EC69C9598BAEF653759DAD9",
+  "rootPremiumVisualSHA256": "D673B0D70DBFA36EE527C2258EE3A7F94050CC137967A5B1CE54397DC8756938",
+  "sourceLinkedWorlds": 72,
+  "composition": true,
+  "firstBatchHiddenSemanticItems": 55,
+  "scope": "Source-linked entry/render/save/unload/exit evidence; Legacy55, Forge1165Normal6, Forge1122one and Python10, plus actual final7 Premium Mellow shader and three baked item model checks. Unchanged component/source evidence is explicitly composed; not every world was rerun on final7. Not full lesson completion, all items, LAN, all hardware or FPS qualification.",
+  "diagnostics": "All raw logs and failed attempts retained. Exactly pinned upstream ModernFix unsupported OptiFine diagnostic and pre-start saved renderer identity metadata explicitly reviewed against native backup, registry and renderer payload evidence; other errors remain disqualifying."
 }
