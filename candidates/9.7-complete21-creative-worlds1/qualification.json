@@ -1,0 +1,5 @@
+{
+  "status": "REJECTED_DO_NOT_ACTIVATE",
+  "releaseId": "9.7-complete21-creative-worlds1",
+  "reason": "Actual-world regression exposed orphan-chest null-world crash and Jurassic required-mod omission. Stable20 retained; worlds2 candidate fixes pending real-game qualification."
+}
