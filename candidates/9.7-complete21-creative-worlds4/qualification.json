@@ -1,0 +1,10 @@
+{
+  "status": "CANDIDATE_NOT_ACTIVE_GAMEPLAY_GATES_PENDING",
+  "releaseId": "9.7-complete21-creative-worlds4",
+  "manifestSHA256": "F408A500F79FFCC92B54D7FA35AED006BB5EB82469C365EE1B16496559C411CC",
+  "sequence": 202610151203,
+  "files": 9192,
+  "feedSHA256": "60C9CFED86EC764E40B38E44DBBF4C1DE4A78E4EEF2547AE9EF3469C104DD096",
+  "nativeFactoryMatrix": "72 candidates: 4 Forge dependency additions, 68 unchanged; actual six Forge and Premium gates pending",
+  "stableReleaseRetained": "9.7-complete20-lod-camera-capes-a21-1"
+}

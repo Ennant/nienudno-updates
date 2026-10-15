@@ -1,0 +1,5 @@
+{
+  "status": "REJECTED_DO_NOT_ACTIVATE",
+  "releaseId": "9.7-complete21-creative-worlds3",
+  "reason": "Actual CYBER1 entry blocked before world load because the frozen factory omitted the required Xaero dependency. Four Forge mission dependency gaps restored by the bounded worlds4 factory patch. Legacy189 55-mission and two warm proofs retained only for unchanged components. Stable20 retained."
+}
