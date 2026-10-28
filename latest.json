@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "9.7-complete25",
+  "version": "9.7.0-complete.25",
+  "publishedUtc": "2026-10-28T22:48:34Z",
+  "highlights": [
+    "Klasa z jednego laptopa: laptop z nowszą wersją sam udostępnia ją innym w sieci klasy, a na starszym pojawia się „Pobierz od Agent n przez Wi-Fi” – bez internetu (od wersji complete.25).",
+    "„Napraw aktualizacje” od razu pokazuje najnowszą wersję, wersję na tym laptopie i listę nowości.",
+    "Po aktualizacji launcher raz pokazuje „Co nowego”; przycisk „Co nowego” otwiera pełną listę zmian.",
+    "Lżejsza instalacja: usunięto 289 MB plików, których launcher już nie używa (pozostałości starszego sposobu budowania programu).",
+    "Szybsze pobieranie aktualizacji: brakujące części są pobierane po 8 naraz.",
+    "Stare automatyczne kopie odzyskiwania światów są porządkowane; zapisane światy zostają nietknięte."
+  ]
+}
