@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete27",
-  "version": "9.7.0-complete.27",
-  "publishedUtc": "2026-10-29T00:42:15Z",
+  "releaseId": "9.7-complete28",
+  "version": "9.7.0-complete.28",
+  "publishedUtc": "2026-10-29T23:43:35.058592Z",
   "highlights": [
-    "Skin działa też w misjach 1.12 i 1.12.2",
-    "Lekcje Python: gra sama łączy się z serwerem lekcji",
-    "STOP zapisuje świat przed zamknięciem gry (1.8.9, 1.16.5)"
+    "Sieć klasy ponawia wykrywanie po dołączeniu do Wi-Fi; widoczne przygotowanie LAN",
+    "Poprawki autostartu, transmisji i zmiany skina przy uruchamianiu",
+    "Profil oszczędny: 8 chunków; zamykane informacje o wydaniu"
   ]
 }
