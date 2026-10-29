@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete25",
-  "version": "9.7.0-complete.25",
-  "publishedUtc": "2026-10-28T22:48:34Z",
+  "releaseId": "9.7-complete27",
+  "version": "9.7.0-complete.27",
+  "publishedUtc": "2026-10-29T00:42:15Z",
   "highlights": [
-    "Klasa z jednego laptopa: nowa wersja przez Wi-Fi od innego laptopa",
-    "Naprawa pokazuje wersje i nowości, launcher – „Co nowego”",
-    "Lżej i szybciej: 289 MB mniej, pobieranie po 8 części naraz"
+    "Skin działa też w misjach 1.12 i 1.12.2",
+    "Lekcje Python: gra sama łączy się z serwerem lekcji",
+    "STOP zapisuje świat przed zamknięciem gry (1.8.9, 1.16.5)"
   ]
 }
