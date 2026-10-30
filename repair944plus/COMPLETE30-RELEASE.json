@@ -1,0 +1,7 @@
+{
+  "releaseId": "9.7-complete30",
+  "version": "9.7.0-complete.30",
+  "length": 104466217,
+  "sha256": "B849BC33FFA501C70FAB43530284E211E3C40E560A9A7A7C7F93B0071F7B6775",
+  "scope": "Existing full installations. 759 Fleet tests, 45 immutable update tests, 64 launcher tests, final artifact pins, 80 repair assertions, native desktop TCP loopback A/B passed. No full classroom Wi-Fi or mission visual qualification."
+}

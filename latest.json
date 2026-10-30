@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete29",
-  "version": "9.7.0-complete.29",
-  "publishedUtc": "2026-10-30T11:56:29.603872Z",
+  "releaseId": "9.7-complete30",
+  "version": "9.7.0-complete.30",
+  "publishedUtc": "2026-10-30T17:39:08.886783Z",
   "highlights": [
-    "Naprawiono błąd przygotowania LAN po zgodzie administratora",
-    "Obsługa uprawnień zadania normalizowanych przez Windows",
-    "Przygotowanie LAN wymienia starszego pomocnika na poprawioną wersję"
+    "Płynniejszy pokaz ekranu z dopasowaniem obrazu do budżetu sieci",
+    "Poprawki zdalnego wyboru misji i robotów; brak przycisku ROBOTY w pauzie",
+    "Ctrl+Shift+Space: lokalne Hands up także w launcherze i menu Minecrafta 1.8.9",
+    "Historia dziesięciu starszych opisów wydań; mniej zbędnego kopiowania przy aktualizacji"
   ]
 }
