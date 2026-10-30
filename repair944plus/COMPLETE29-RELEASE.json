@@ -1,0 +1,7 @@
+{
+  "releaseId": "9.7-complete29",
+  "version": "9.7.0-complete.29",
+  "length": 104465717,
+  "sha256": "AEDBCAD28DE15649C51174B83475CFDCF6A741DEF2788D8C9AEC88F5D08E852A",
+  "scope": "Existing full installations. Helper self-test, 80 repair assertions, 32 focused launcher tests passed. Native elevated enrollment and two-laptop screen sharing not yet verified."
+}

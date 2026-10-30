@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete28",
-  "version": "9.7.0-complete.28",
-  "publishedUtc": "2026-10-29T23:43:35.058592Z",
+  "releaseId": "9.7-complete29",
+  "version": "9.7.0-complete.29",
+  "publishedUtc": "2026-10-30T11:56:29.603872Z",
   "highlights": [
-    "Sieć klasy ponawia wykrywanie po dołączeniu do Wi-Fi; widoczne przygotowanie LAN",
-    "Poprawki autostartu, transmisji i zmiany skina przy uruchamianiu",
-    "Profil oszczędny: 8 chunków; zamykane informacje o wydaniu"
+    "Naprawiono błąd przygotowania LAN po zgodzie administratora",
+    "Obsługa uprawnień zadania normalizowanych przez Windows",
+    "Przygotowanie LAN wymienia starszego pomocnika na poprawioną wersję"
   ]
 }
