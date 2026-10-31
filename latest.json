@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete31",
-  "version": "9.7.0-complete.31",
-  "publishedUtc": "2026-10-31T01:06:13.845374Z",
+  "releaseId": "9.7-complete32",
+  "version": "9.7.0-complete.32",
+  "publishedUtc": "2026-10-31T07:13:18.856590Z",
   "highlights": [
-    "Zatwierdzony ekran główny: czytelne tytuły, indywidualne kadry 72 misji i spójne ikony",
-    "Uproszczone aktualizacje, ustawienia i zapisy; automatyczne pobieranie przez LAN",
-    "Poprawki profilu oszczędnego, wyboru skina i cichych robotów bez pilota",
-    "Uzupełnione wszystkie podpisane pliki serwera do naprawy niepełnych instalacji"
+    "Szybsze przygotowanie gry i mniej powtarzanej pracy nad plikami",
+    "Przygotowanie poza interfejsem, mniej odświeżania listy i postępu",
+    "Jeden pasek aktualizacji i poprawne opisy etapów",
+    "Autostart Windows z możliwością wyłączenia w ustawieniach"
   ]
 }

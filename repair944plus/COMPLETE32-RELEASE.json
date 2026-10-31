@@ -1,0 +1,10 @@
+{
+  "releaseId": "9.7-complete32",
+  "version": "9.7.0-complete.32",
+  "length": 104469848,
+  "sha256": "EFC6D8F873B504802023547621990654D4523E3CBEEC6C1227D414E2C7CB2F0E",
+  "manifestSha256": "93DA1A7995A1D9D8D0A1622E02DD712B8CBE1E8D9117633C50F32DD8408522FA",
+  "publishedUtc": "2026-10-31T07:13:18.856590Z",
+  "fullyDownloadable": true,
+  "scope": "Existing installations and signed full recovery; isolated old installed-H stage and real normal HP activation/startup passed; automated tests and offscreen update UI audit passed. No complete.32 gameplay/FPS test; two-laptop LAN measured on unchanged .31 game files."
+}
