@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete34",
-  "version": "9.7.0-complete.34",
-  "publishedUtc": "2026-10-31T18:47:17.439969Z",
+  "releaseId": "9.7-complete35",
+  "version": "9.7.0-complete.35",
+  "publishedUtc": "2026-10-31T21:09:13.544474Z",
   "highlights": [
-    "Imię gracza w launcherze i istniejącym wyborze skinów; offline filtr PL/EN obejmuje 1000 wpisów i warianty zapisu.",
-    "Instruktor zmienia imię ołówkiem przy laptopie i blokuje edycję kłódką. Blokada zostaje po ponownym uruchomieniu.",
-    "W Minecraft 1.8.9 imiona są widocznymi nickami bez zmiany loginu, UUID i ekwipunku.",
-    "Bieżąca lekcja może być wyróżniona na laptopach dzieci bez uruchamiania gry."
+    "Mniej powtarzanej pracy podczas sprawdzania ścieżek aktualizacji, z zachowaniem kontroli dowiązań i podpisów.",
+    "Krótkie, ograniczone oczekiwanie na chwilowo zajęty folder przy końcowym zastosowaniu plików; bez ponownego kopiowania paczki.",
+    "Imiona graczy, opis lekcji i zgłoszenie pomocy rozszerzone na Minecraft 1.16.5; wspólny kod z wersją 1.8.9.",
+    "Panel klasy odczytuje stały login również z faktycznych argumentów uruchomienia pozostałych wersji gry."
   ]
 }

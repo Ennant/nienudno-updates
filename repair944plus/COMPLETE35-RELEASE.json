@@ -1,0 +1,10 @@
+{
+  "releaseId": "9.7-complete35",
+  "version": "9.7.0-complete.35",
+  "length": 104470327,
+  "sha256": "8971AAAAFFC7D64D5021376A9160F42E303A637FF9EB2B50084E0DD66AAF7674",
+  "manifestSha256": "1C2513768B7C4B286EC393F47AA1A8B04AD88AC109227B3FC0DB4E16209A4EAD",
+  "publishedUtc": "2026-10-31T21:09:13.544474Z",
+  "fullyDownloadable": true,
+  "scope": "Installed H34 stage and normal HP activation; automated tests; real owned 1.8.9 and 1.16.5 display/help tests; selected production WPF renders. No all-mission, 1.12 aliases, FPS or whole-class stream qualification."
+}
