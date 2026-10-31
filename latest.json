@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete32",
-  "version": "9.7.0-complete.32",
-  "publishedUtc": "2026-10-31T07:13:18.856590Z",
+  "releaseId": "9.7-complete33",
+  "version": "9.7.0-complete.33",
+  "publishedUtc": "2026-10-31T08:36:06.104370Z",
   "highlights": [
-    "Szybsze przygotowanie gry i mniej powtarzanej pracy nad plikami",
-    "Przygotowanie poza interfejsem, mniej odświeżania listy i postępu",
-    "Jeden pasek aktualizacji i poprawne opisy etapów",
-    "Autostart Windows z możliwością wyłączenia w ustawieniach"
+    "Uproszczony panel aktualizacji: jeden krótki opis etapu, jeden licznik i jeden cienki pasek. Bez dodatkowej karty i stale wyświetlanego czasu.",
+    "Podczas pobierania i przygotowania poprzednie „Co nowego” oraz dodatkowe kontrolki nie zasłaniają postępu. Numer agenta pozostaje dostępny.",
+    "Pasek i licznik korzystają z tej samej jednostki: MB podczas pobierania, liczby plików podczas przygotowania i sprawdzania. Etapy klasyfikowania plików pokazują rzeczywisty postęp, gdy aktualizator zna ich liczbę.",
+    "Naprawione obcinanie postępu przy 640×360 oraz wykrywanie aktywnego panelu aktualizacji po zmianie układu stopki."
   ]
 }

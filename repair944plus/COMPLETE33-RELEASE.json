@@ -1,0 +1,10 @@
+{
+  "releaseId": "9.7-complete33",
+  "version": "9.7.0-complete.33",
+  "length": 104469337,
+  "sha256": "6B866669B4160703B007FD45D97040BAE00590484D0D772AEA713C07BC6B652F",
+  "manifestSha256": "AE5C929E5764BC805381405ACA62855CD9731E3029C86581424B3361ED2A135C",
+  "publishedUtc": "2026-10-31T08:36:06.104370Z",
+  "fullyDownloadable": true,
+  "scope": "Installed versioned H32 stage on actual HP, normal activation and real launcher/library startup; automated launcher tests, Repair self-test and production offscreen WPF visual audit. No isolated GUI, complete.33 gameplay/FPS or whole-class stream test."
+}
