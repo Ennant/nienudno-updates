@@ -1,0 +1,10 @@
+{
+  "releaseId": "9.7-complete31",
+  "version": "9.7.0-complete.31",
+  "length": 104469337,
+  "sha256": "98F6F972C83100AA81580047F8F04B7BDC4415B3138DE9048F152B39368F82B1",
+  "manifestSha256": "FD9A6801F7E468FC060DFB86AC8949503E18AAFD8F11DA25910B0B1B683DEC6A",
+  "publishedUtc": "2026-10-31T01:06:13.845374Z",
+  "fullyDownloadable": true,
+  "scope": "Existing installations and signed full recovery; native staging/launcher startup, automated tests and offscreen WPF visual audit passed. Gameplay and two physical laptops not tested."
+}

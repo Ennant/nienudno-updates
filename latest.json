@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete30",
-  "version": "9.7.0-complete.30",
-  "publishedUtc": "2026-10-30T17:39:08.886783Z",
+  "releaseId": "9.7-complete31",
+  "version": "9.7.0-complete.31",
+  "publishedUtc": "2026-10-31T01:06:13.845374Z",
   "highlights": [
-    "Płynniejszy pokaz ekranu z dopasowaniem obrazu do budżetu sieci",
-    "Poprawki zdalnego wyboru misji i robotów; brak przycisku ROBOTY w pauzie",
-    "Ctrl+Shift+Space: lokalne Hands up także w launcherze i menu Minecrafta 1.8.9",
-    "Historia dziesięciu starszych opisów wydań; mniej zbędnego kopiowania przy aktualizacji"
+    "Zatwierdzony ekran główny: czytelne tytuły, indywidualne kadry 72 misji i spójne ikony",
+    "Uproszczone aktualizacje, ustawienia i zapisy; automatyczne pobieranie przez LAN",
+    "Poprawki profilu oszczędnego, wyboru skina i cichych robotów bez pilota",
+    "Uzupełnione wszystkie podpisane pliki serwera do naprawy niepełnych instalacji"
   ]
 }
