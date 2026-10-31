@@ -1,0 +1,10 @@
+{
+  "releaseId": "9.7-complete34",
+  "version": "9.7.0-complete.34",
+  "length": 104469337,
+  "sha256": "9BD25536D0D631AC24ABC44F6B8F8182A27F99F16CE5D8B7D14F330D330F6013",
+  "manifestSha256": "F7285EDD34B33A64F9DB5A2443F969D2FC8734FBFB202167B00148C5014EBBDD",
+  "publishedUtc": "2026-10-31T18:47:17.439969Z",
+  "fullyDownloadable": true,
+  "scope": "Installed H33 stage and normal HP activation, automated tests, real owned First Training name/help test, production WPF renders; no all-mission, other-version aliases, FPS or whole-class stream qualification."
+}

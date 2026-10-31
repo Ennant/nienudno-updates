@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete33",
-  "version": "9.7.0-complete.33",
-  "publishedUtc": "2026-10-31T08:36:06.104370Z",
+  "releaseId": "9.7-complete34",
+  "version": "9.7.0-complete.34",
+  "publishedUtc": "2026-10-31T18:47:17.439969Z",
   "highlights": [
-    "Uproszczony panel aktualizacji: jeden krótki opis etapu, jeden licznik i jeden cienki pasek. Bez dodatkowej karty i stale wyświetlanego czasu.",
-    "Podczas pobierania i przygotowania poprzednie „Co nowego” oraz dodatkowe kontrolki nie zasłaniają postępu. Numer agenta pozostaje dostępny.",
-    "Pasek i licznik korzystają z tej samej jednostki: MB podczas pobierania, liczby plików podczas przygotowania i sprawdzania. Etapy klasyfikowania plików pokazują rzeczywisty postęp, gdy aktualizator zna ich liczbę.",
-    "Naprawione obcinanie postępu przy 640×360 oraz wykrywanie aktywnego panelu aktualizacji po zmianie układu stopki."
+    "Imię gracza w launcherze i istniejącym wyborze skinów; offline filtr PL/EN obejmuje 1000 wpisów i warianty zapisu.",
+    "Instruktor zmienia imię ołówkiem przy laptopie i blokuje edycję kłódką. Blokada zostaje po ponownym uruchomieniu.",
+    "W Minecraft 1.8.9 imiona są widocznymi nickami bez zmiany loginu, UUID i ekwipunku.",
+    "Bieżąca lekcja może być wyróżniona na laptopach dzieci bez uruchamiania gry."
   ]
 }
