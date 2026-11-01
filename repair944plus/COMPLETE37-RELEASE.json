@@ -1,0 +1,10 @@
+{
+  "releaseId": "9.7-complete37",
+  "version": "9.7.0-complete.37",
+  "length": 104470326,
+  "sha256": "8A2EC1D10643B437CFF2509E3FB0D3BC26983911D8A06ED46C5E2C27E03349ED",
+  "manifestSha256": "3DDE3D2F38C77BA409EDC34D5B17562882F13E2E4C0080D1922F054BA065EBED",
+  "publishedUtc": "2026-11-01T00:27:22.941847Z",
+  "fullyDownloadable": true,
+  "scope": "Installed H36 stage and normal HP37 activation; automated regression; 72-row bound WPF catalog regression; current offscreen image review. Game/stream measurements inherited from identical Core/game/stream source in candidate .36. Game JARs unchanged from .35. Not T420, all missions/dimensions, full-class Wi-Fi or all pending work."
+}

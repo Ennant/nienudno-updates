@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete35",
-  "version": "9.7.0-complete.35",
-  "publishedUtc": "2026-10-31T21:09:13.544474Z",
+  "releaseId": "9.7-complete37",
+  "version": "9.7.0-complete.37",
+  "publishedUtc": "2026-11-01T00:27:22.941847Z",
   "highlights": [
-    "Mniej powtarzanej pracy podczas sprawdzania ścieżek aktualizacji, z zachowaniem kontroli dowiązań i podpisów.",
-    "Krótkie, ograniczone oczekiwanie na chwilowo zajęty folder przy końcowym zastosowaniu plików; bez ponownego kopiowania paczki.",
-    "Imiona graczy, opis lekcji i zgłoszenie pomocy rozszerzone na Minecraft 1.16.5; wspólny kod z wersją 1.8.9.",
-    "Panel klasy odczytuje stały login również z faktycznych argumentów uruchomienia pozostałych wersji gry."
+    "Płynniejszy pokaz ekranu: ponownie używane bufory obrazu, dokładniejsze tempo i odbiór najnowszej klatki bez narastającej kolejki. Wyższa jakość JPEG, automatyczne dopasowanie do klasy i dotychczasowy wspólny limit przesyłu pozostają.",
+    "Szybsze wyświetlenie listy misji: wybór ilustracji z katalogu bez otwierania i sprawdzania modów każdej misji; Zatwierdzone ilustracje wszystkich 72 misji pozostały te same.",
+    "Przygotowanie modów wykorzystuje duże sekwencyjne odczyty zamiast częstego przeskakiwania między plikami. Nadal sprawdzany jest każdy bajt; podpisy i integralność nie są pomijane.",
+    "Rzeczywisty test powiązanej listy WPF obejmuje wczytanie i ponowne wczytanie 72 misji. Usunięto odroczone odświeżanie podczas dodawania wierszy."
   ]
 }
