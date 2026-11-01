@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete38",
-  "version": "9.7.0-complete.38",
-  "publishedUtc": "2026-11-01T02:29:58.586768Z",
+  "releaseId": "9.7-complete39",
+  "version": "9.7.0-complete.39",
+  "publishedUtc": "2026-11-01T09:52:19.065526Z",
   "highlights": [
-    "Mniej zbędnych alokacji podczas przygotowywania aktualizacji: ograniczona pula buforów enumeracji aliasów plików. Sprawdzanie podpisów, integralności, aliasów i uprawnień pozostaje bez zmian.",
-    "W natywnym pomiarze 4096 enumeracji Windows: 271,38 → 2,65 MB alokacji zarządzanych (około 99% mniej), 1,272 → 1,103 s. To jeden etap, nie czas całej aktualizacji; pula przechowuje najwyżej cztery bufory.",
-    "Zachowane poprawki .37 dotyczące transmisji (1280x720 w pomiarze HP), przygotowania modów oraz katalogu misji. Wszystkie pliki gry i ustawienia grafiki pozostają identyczne jak w .37. LOD pozostaje wyłączony.",
-    "Prototypy indeksu stanów bloków i odczytu tekstur nie zostały włączone. Pomimo poprawności danych, nie wykazały dostatecznie stabilnej korzyści w pełnej grze."
+    "Szybsze przygotowanie światów Minecraft 1.8.9: odczyt NBT bez zbędnych kopii oraz maksymalnie dwa niezależne procesy konwersji regionów przed startem gry. Podczas gry pozostaje jeden proces. Kontrole danych i podpisów zachowane; brak miejsca lub niedostępna równoległość przywraca tryb szeregowy.",
+    "Na HP pełne przygotowanie testowej misji First Training: mediana 23,90 → 14,69 s (38,5% krócej); gotowy profil ponownie otwiera się w około 0,9 s. To etap przygotowania, nie cały czas od GRAJ do świata i nie pomiar T420.",
+    "Usprawniony ograniczony cache istniejących chunków: w kontrolowanym teście HP profil oszczędny osiągnął około 9% więcej FPS. W sprawdzonej scenie Premium/Mellow wynik wyniósł około 83 → 81 FPS; nie deklarujemy przyspieszenia Premium. Rozdzielczość, shadery i ustawienia obrazu pozostają zachowane.",
+    "Zachowane wcześniejsze poprawki transmisji (wcześniejszy pomiar HP 1280x720), przygotowania modów i aktualizatora. LOD nadal wyłączony. Brak zmiany JVM i generowania klatek."
   ]
 }
