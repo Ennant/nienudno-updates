@@ -1,12 +1,11 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete42",
-  "version": "9.7.0-complete.42",
-  "publishedUtc": "2026-11-01T21:13:59.508521Z",
+  "releaseId": "9.7-complete43",
+  "version": "9.7.0-complete.43",
+  "publishedUtc": "2026-11-01T22:41:39.139286Z",
   "highlights": [
-    "Więcej miejsca na listę skinów: szerszy panel, kompaktowy nagłówek i pole imienia obok podglądu. Układ sprawdzony również przy skalowaniu 125%.",
-    "Całą postać można obejrzeć w 3D i obracać myszką. Podgląd korzysta z tekstury wybranego skina, uwzględnia model klasyczny i slim oraz dodatkowe warstwy. Nie uruchamia stałej animacji w tle.",
-    "Podpowiedź pola imienia jest krótsza. Zmiana skina i imienia korzysta z dotychczasowych mechanizmów.",
-    "Panel instruktora otwiera Ctrl+Shift+D. Numer agenta ze stanem sieci pozostaje widoczny; wejścia przez kliknięcie numeru i przycisk w ustawieniach zostały wyłączone."
+    "Poprawna nazwa „Nienudny Launcher Pro” również w tytule uruchomionego okna.",
+    "Usunięta nieaktualna podpowiedź kliknięcia panelu instruktora przy numerze agenta. Panel pozostaje dostępny przez Ctrl+Shift+D.",
+    "Mniej dużych alokacji pamięci podczas przygotowywania aktualizacji, przy zachowaniu weryfikacji podpisów, plików i zapasu miejsca."
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "releaseId": "9.7-complete43",
+  "version": "9.7.0-complete.43",
+  "length": 104704297,
+  "sha256": "B7A54527760D5912FA3EF6B194716BB9CBFECC2A5A2CD71B74C31226E5428043",
+  "manifestSha256": "9C5F558067700CE6F234562E5D96C2576B835E1C4FE89CC16E90578BFD71EA36",
+  "publishedUtc": "2026-11-01T22:41:39.139286Z",
+  "fullyDownloadable": true,
+  "gameJarsChanged": false,
+  "scope": "Correct runtime product name and stale classroom tooltip; reuse bounded verification buffers. Bring offline installer source into the main tree with current shared dependencies; standalone offline qualification is tracked separately. All Minecraft JARs, renderer and classroom wire protocol unchanged."
+}
