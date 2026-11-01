@@ -1,0 +1,11 @@
+{
+  "releaseId": "9.7-complete40",
+  "version": "9.7.0-complete.40",
+  "length": 104702572,
+  "sha256": "B252575AC23077D26303D229234ED350B4B91A0004B3F8998529C2085884609A",
+  "manifestSha256": "34A31BF9437E4D02ED32195299D607120F1858BBD6C74B6F57F69F316350F386",
+  "publishedUtc": "2026-11-01T12:38:01.732588Z",
+  "fullyDownloadable": true,
+  "gameJarsChanged": true,
+  "scope": "Qualified own compact block-state graph, native HP FirstTraining economy/Premium resource reload and save/rejoin, independent retained heap and unprofiled ABBA. Original renderer/shader/JVM/LOD state. Not full GRAJ3x, T420 or all ports completion."
+}
