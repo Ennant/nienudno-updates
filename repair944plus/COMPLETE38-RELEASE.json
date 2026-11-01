@@ -1,0 +1,11 @@
+{
+  "releaseId": "9.7-complete38",
+  "version": "9.7.0-complete.38",
+  "length": 104470552,
+  "sha256": "3E845651E0963B1C47B52B0CB57ED36253704A4C58E12B85D111C6B942081796",
+  "manifestSha256": "3EBCA9C1492EF1CF0A9D25B11B13FFE2E2216698C409CDB859C60C431E04B496",
+  "publishedUtc": "2026-11-01T02:29:58.586768Z",
+  "fullyDownloadable": true,
+  "gameJarsChanged": false,
+  "scope": "Updater alias-buffer allocation optimization only. Native old installed-H37 stage and actual HP38 startup, automated regression, owned game test and catalog binding. No experimental game optimization or T420/FPS improvement claim."
+}

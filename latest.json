@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete37",
-  "version": "9.7.0-complete.37",
-  "publishedUtc": "2026-11-01T00:27:22.941847Z",
+  "releaseId": "9.7-complete38",
+  "version": "9.7.0-complete.38",
+  "publishedUtc": "2026-11-01T02:29:58.586768Z",
   "highlights": [
-    "Płynniejszy pokaz ekranu: ponownie używane bufory obrazu, dokładniejsze tempo i odbiór najnowszej klatki bez narastającej kolejki. Wyższa jakość JPEG, automatyczne dopasowanie do klasy i dotychczasowy wspólny limit przesyłu pozostają.",
-    "Szybsze wyświetlenie listy misji: wybór ilustracji z katalogu bez otwierania i sprawdzania modów każdej misji; Zatwierdzone ilustracje wszystkich 72 misji pozostały te same.",
-    "Przygotowanie modów wykorzystuje duże sekwencyjne odczyty zamiast częstego przeskakiwania między plikami. Nadal sprawdzany jest każdy bajt; podpisy i integralność nie są pomijane.",
-    "Rzeczywisty test powiązanej listy WPF obejmuje wczytanie i ponowne wczytanie 72 misji. Usunięto odroczone odświeżanie podczas dodawania wierszy."
+    "Mniej zbędnych alokacji podczas przygotowywania aktualizacji: ograniczona pula buforów enumeracji aliasów plików. Sprawdzanie podpisów, integralności, aliasów i uprawnień pozostaje bez zmian.",
+    "W natywnym pomiarze 4096 enumeracji Windows: 271,38 → 2,65 MB alokacji zarządzanych (około 99% mniej), 1,272 → 1,103 s. To jeden etap, nie czas całej aktualizacji; pula przechowuje najwyżej cztery bufory.",
+    "Zachowane poprawki .37 dotyczące transmisji (1280x720 w pomiarze HP), przygotowania modów oraz katalogu misji. Wszystkie pliki gry i ustawienia grafiki pozostają identyczne jak w .37. LOD pozostaje wyłączony.",
+    "Prototypy indeksu stanów bloków i odczytu tekstur nie zostały włączone. Pomimo poprawności danych, nie wykazały dostatecznie stabilnej korzyści w pełnej grze."
   ]
 }
