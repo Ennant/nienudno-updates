@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete41",
-  "version": "9.7.0-complete.41",
-  "publishedUtc": "2026-11-01T19:07:54.984270Z",
+  "releaseId": "9.7-complete42",
+  "version": "9.7.0-complete.42",
+  "publishedUtc": "2026-11-01T21:13:59.508521Z",
   "highlights": [
-    "Numer agenta i stan połączenia klasy są w prawym górnym rogu. Ustawienia sieci i informacje o wersji są uporządkowane.",
-    "Przygotowanie laptopa ma trzy zapamiętywane presety: Prywatny, Zajęciowy łagodny i Zajęciowy pełny. Skan pokazuje stan, proponowane działania, konkretne pliki i wyjątki oraz szacowany czas długich operacji.",
-    "Wszystkie presety korzystają z obecnego konta Windows. Tryby zajęciowe mogą wyłączyć żądanie hasła po wybudzeniu oraz skonfigurować automatyczne logowanie po lokalnym wpisaniu hasła tego konta. Nie tworzą nowego konta.",
-    "Z planu można wykonać rozpoznane porządki, odinstalowanie zbędnych aplikacji, wyłączenie zbędnego autostartu, zmianę efektów Windows, ustawienia touchpada i obsługiwane zadania dysku. Wymagane sterowniki, Edge, ChatGPT, światy dzieci i aktywne dane launchera są chronione."
+    "Więcej miejsca na listę skinów: szerszy panel, kompaktowy nagłówek i pole imienia obok podglądu. Układ sprawdzony również przy skalowaniu 125%.",
+    "Całą postać można obejrzeć w 3D i obracać myszką. Podgląd korzysta z tekstury wybranego skina, uwzględnia model klasyczny i slim oraz dodatkowe warstwy. Nie uruchamia stałej animacji w tle.",
+    "Podpowiedź pola imienia jest krótsza. Zmiana skina i imienia korzysta z dotychczasowych mechanizmów.",
+    "Panel instruktora otwiera Ctrl+Shift+D. Numer agenta ze stanem sieci pozostaje widoczny; wejścia przez kliknięcie numeru i przycisk w ustawieniach zostały wyłączone."
   ]
 }

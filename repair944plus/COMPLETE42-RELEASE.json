@@ -1,0 +1,11 @@
+{
+  "releaseId": "9.7-complete42",
+  "version": "9.7.0-complete.42",
+  "length": 104704248,
+  "sha256": "EFD555EABDC360745496836DEA46AC0D0E8052162CB09D65758C512AEC000AC1",
+  "manifestSha256": "61F0ECD6E0B77F6AD07E906472737EBCFB19029E618B5688D8D0B1497808268E",
+  "publishedUtc": "2026-11-01T21:13:59.508521Z",
+  "fullyDownloadable": true,
+  "gameJarsChanged": false,
+  "scope": "User-approved wider skin panel and full-body textured 3D preview; keyboard-only instructor entry; Nienudny Launcher Pro desktop/Start menu branding. All Minecraft JARs, renderer and classroom wire protocol unchanged."
+}
