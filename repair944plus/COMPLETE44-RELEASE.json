@@ -1,0 +1,11 @@
+{
+  "releaseId": "9.7-complete44",
+  "version": "9.7.0-complete.44",
+  "length": 104704309,
+  "sha256": "1AB098813EB7D4E493B1C8271FB9F5FFF8227F5E66725140A126596EF34F1F3F",
+  "manifestSha256": "98F7EE5DDAD5E05393370C182A87968785854D817FCA1F9F57F09FFA6192CEB0",
+  "publishedUtc": "2026-11-01T23:21:00.988218Z",
+  "fullyDownloadable": true,
+  "gameJarsChanged": false,
+  "scope": "Retire superseded own launcher source ZIPs while preserving full current source, unique historical records and all native-mod sources. Add packed-EXE size guard and selective offline repair. Standalone USB qualification is tracked separately. All Minecraft JARs, renderer and classroom wire protocol unchanged."
+}

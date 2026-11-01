@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete43",
-  "version": "9.7.0-complete.43",
-  "publishedUtc": "2026-11-01T22:41:39.139286Z",
+  "releaseId": "9.7-complete44",
+  "version": "9.7.0-complete.44",
+  "publishedUtc": "2026-11-01T23:21:00.988218Z",
   "highlights": [
-    "Poprawna nazwa „Nienudny Launcher Pro” również w tytule uruchomionego okna.",
-    "Usunięta nieaktualna podpowiedź kliknięcia panelu instruktora przy numerze agenta. Panel pozostaje dostępny przez Ctrl+Shift+D.",
-    "Mniej dużych alokacji pamięci podczas przygotowywania aktualizacji, przy zachowaniu weryfikacji podpisów, plików i zapasu miejsca."
+    "Mniejsza paczka programu: usunięto powielone archiwa źródeł dawnych launcherów. Pełne aktualne źródła, źródła modów oraz unikalne zapisy pochodzenia zostały zachowane.",
+    "Aktualizacja nie musi już przenosić tych samych historycznych archiwów do kolejnej wersji.",
+    "Instalator offline otrzymał kontrolę końcowego rozmiaru EXE oraz naprawę rozpakowującą tylko brakujące lub uszkodzone pliki. Plik na pendrive jest udostępniany dopiero po osobnym sprawdzeniu instalacji."
   ]
 }
