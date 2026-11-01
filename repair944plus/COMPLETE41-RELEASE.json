@@ -1,0 +1,11 @@
+{
+  "releaseId": "9.7-complete41",
+  "version": "9.7.0-complete.41",
+  "length": 104702715,
+  "sha256": "F5D1F604EA1AB325CFE45323CCDBF59F934F2EBB89EFCA37BB39363271BF73CE",
+  "manifestSha256": "345BB9D31E183A57C90DB8267B7E532412FC6E89C7D91423ABA7880A9DCD073A",
+  "publishedUtc": "2026-11-01T19:07:54.984270Z",
+  "fullyDownloadable": true,
+  "gameJarsChanged": false,
+  "scope": "Launcher settings, reviewed existing-account preparation, classroom batch planning and WPF responsiveness. Existing Minecraft JARs and renderer unchanged. Read-only HP scan; no real admin preparation, OS boot/restart or T420/FPS qualification."
+}
