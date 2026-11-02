@@ -1,0 +1,11 @@
+{
+  "releaseId": "9.7-complete45",
+  "version": "9.7.0-complete.45",
+  "length": 104708031,
+  "sha256": "993172AAD419E2935B3683B600DB7029FF2C8EE24D2516927BA6D65403B6CCD4",
+  "manifestSha256": "5E0497F5D48DB4EF2D7D19445EC883B30CE11FB77FDC48FAAF779BBFD8E161CF",
+  "publishedUtc": "2026-11-02T09:57:29.822732Z",
+  "fullyDownloadable": true,
+  "gameJarsChanged": false,
+  "scope": "Repair tool update; no standalone offline launcher qualification"
+}

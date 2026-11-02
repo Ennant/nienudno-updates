@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9.7-complete44",
-  "version": "9.7.0-complete.44",
-  "publishedUtc": "2026-11-01T23:21:00.988218Z",
+  "releaseId": "9.7-complete45",
+  "version": "9.7.0-complete.45",
+  "publishedUtc": "2026-11-02T09:57:29.822732Z",
   "highlights": [
-    "Mniejsza paczka programu: usunięto powielone archiwa źródeł dawnych launcherów. Pełne aktualne źródła, źródła modów oraz unikalne zapisy pochodzenia zostały zachowane.",
-    "Aktualizacja nie musi już przenosić tych samych historycznych archiwów do kolejnej wersji.",
-    "Instalator offline otrzymał kontrolę końcowego rozmiaru EXE oraz naprawę rozpakowującą tylko brakujące lub uszkodzone pliki. Plik na pendrive jest udostępniany dopiero po osobnym sprawdzeniu instalacji."
+    "Sprawdzenie kanału aktualizacji ponownie używa podpisanego manifestu dla tego samego commita. Nadal sprawdza podpis, wersję i sekwencję, a praca sieciowa nie blokuje interfejsu.",
+    "W pojedynczej obserwacji sprawdzenie powtórne trwało 1,88 s i nie pobrało bajtów manifestu. Pierwsze sprawdzenie trwało 4,10 s i pobrało 8 785 713 B. To pomiar samego sprawdzenia kanału, nie pełnej aktualizacji ani startu gry.",
+    "Po błędzie wysłania polecenia panel klasy kończy stan „Wysyłam polecenie…” dla próbowanych odbiorców komunikatem „Brak potwierdzenia”. Ponowienie zachowuje pierwotną misję i wybraną listę odbiorców.",
+    "Weryfikacja bootstrapu czyta plik strumieniowo; w pomiarze testowym przydzieliła 153 280 B na wątku wywołującym zamiast wczytywać całe EXE do jednej tablicy."
   ]
 }
