@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Jak uruchomić i zaktualizować Nienudny Launcher Pro w klasie.">
+<title>Instrukcja dla instruktora: Nienudny Launcher Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="index.html">Nienudny Launcher Pro</a><nav aria-label="Menu"><a href="index.html">Pobierz</a><a href="wersje.html">Wersje</a><a href="instrukcja.html" aria-current="page">Instrukcja</a></nav></div></header>
+<main class="wrap">
+<!-- Source of every UI label below: c48\src launcher/repair strings (MainWindow.xaml, CommanderWindow.xaml, MainWindow.Updates.cs, repair\Program.cs, App.xaml.cs) and the public repair944plus README. -->
+<h1>Instrukcja dla instruktora</h1>
+<p>Krótko: jak uruchomić Nienudno, jak je zaktualizować i co zrobić, gdy coś nie działa. Aktualna wersja: <strong>9.7.0-complete.48</strong>.</p>
+
+<section class="card">
+  <h2>Uruchamianie</h2>
+  <ul>
+    <li>Uruchamiaj Nienudno skrótem <strong>„Nienudny Launcher Pro”</strong> na pulpicie. Nie używaj starych skrótów ani plików z innych folderów.</li>
+    <li>Wybierz misję i kliknij <strong>„GRAJ”</strong>.</li>
+    <li>Włącz launcher i grę przed lekcją. Pierwsze uruchomienie Minecrafta trwa dłużej.</li>
+    <li><strong>Panel instruktora:</strong> <code>Ctrl+Shift+D</code>, potem wpisz PIN swojej klasy. Uprawnienia wygasają po 20 minutach.</li>
+    <li>W grze <code>Ctrl</code> + klik „Opcje” otwiera pełne opcje Minecrafta (klawisze, shadery, język). Zwykłe „Opcje” to wersja dla dzieci.</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Aktualizacja przez internet: przycisk „Aktualizuj”</h2>
+  <ol class="steps">
+    <li>Kliknij <strong>„Aktualizuj”</strong> w launcherze. Launcher sprawdzi, czy jest nowa wersja. Jeśli jej nie ma, napisze „Masz aktualną wersję Nienudno”.</li>
+    <li>Nowa wersja jest pobierana i sprawdzana podpisem. Postęp widać w launcherze.</li>
+    <!-- TODO(#92): nazwy przycisków i zachowanie „Później” potwierdzić po wdrożeniu okna „teraz czy później” w .48 (PLAN-48 §3, pytanie 3 do Filipa). -->
+    <li>Gdy aktualizacja jest gotowa, launcher zapyta:
+      <ul>
+        <li><strong>„Zaktualizuj teraz”</strong>: launcher zapisze świat, zamknie grę i uruchomi się ponownie w nowej wersji.</li>
+        <li><strong>„Później”</strong>: nowa wersja zainstaluje się przy następnym uruchomieniu launchera.</li>
+      </ul>
+    </li>
+    <li>Po aktualizacji przycisk <strong>„Co nowego w tej wersji”</strong> pokazuje listę zmian. Pełna lista jest też na stronie <a href="wersje.html">Wersje</a>.</li>
+  </ol>
+  <div class="ok">Jeśli pobieranie się nie uda, dotychczasowa wersja zostaje i dalej działa. Przy zbyt długim połączeniu kliknij „Aktualizuj” jeszcze raz: pobieranie zostanie wznowione.</div>
+</section>
+
+<section class="card">
+  <h2>Aktualizacja całej klasy przez Wi-Fi</h2>
+  <p>Wystarczy, że nowa wersja jest na jednym laptopie. Pozostałe dostaną ją przez lokalne Wi-Fi, bez internetu.</p>
+  <p><strong>Warunki:</strong> wszystkie laptopy są włączone, mają uruchomiony launcher i są w tym samym Wi-Fi sali. Najlepiej własny router sali z wyłączoną izolacją klientów. Sieć szkolna (domenowa) zwykle się nie nadaje.</p>
+  <h3>Wszystkie laptopy naraz (z laptopa instruktora)</h3>
+  <ol class="steps">
+    <li>Na swoim laptopie otwórz panel: <code>Ctrl+Shift+D</code> i wpisz PIN.</li>
+    <li>W sekcji „SIEĆ I LAPTOPY” kliknij <strong>„Wydaj aktualizację wszystkim w sieci”</strong>.</li>
+    <li>Twój laptop przygotuje podpisaną paczkę i roześle ją do pozostałych. Na każdym laptopie gra zostanie zapisana i bezpiecznie zamknięta, a launcher uruchomi się w nowej wersji.</li>
+    <li>Panel pokazuje wynik dla każdego laptopa. Laptop jest gotowy dopiero wtedy, gdy zgłosi nową wersję. Laptopy offline są wyraźnie oznaczone.</li>
+    <li>Twój laptop zostaje przy dotychczasowej wersji, żeby pilnować wyników. Na koniec kliknij na nim <strong>„Uruchom najnowszą wersję”</strong>.</li>
+  </ol>
+  <p class="small">Jeśli Twój laptop ma internet, najpierw sam pobierze najnowszą wersję. Bez internetu rozda tę, którą już ma. Laptop ze starszą wersją może potrzebować jednego ręcznego restartu launchera; panel to pokaże.</p>
+  <h3>Jeden laptop</h3>
+  <p>Gdy w sieci jest laptop z nowszą wersją, na starszym pojawia się przycisk <strong>„Pobierz przez Wi-Fi”</strong>. Pobrana wersja uruchomi się przy następnym uruchomieniu launchera. Bez kliknięcia nic się nie instaluje.</p>
+  <h3>Laptopy się nie widzą</h3>
+  <ul>
+    <li>W panelu kliknij <strong>„Sprawdź połączenie z laptopami”</strong> albo <strong>„Dlaczego nie widzę innych?”</strong>.</li>
+    <li>Najczęstsze przyczyny: laptopy są w różnych sieciach Wi-Fi, router ma włączoną izolację urządzeń albo laptop jest w szkolnej sieci domenowej.</li>
+    <li>Po niektórych aktualizacjach Windows może raz poprosić o zgodę administratora na przygotowanie sieci klasy.</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Komunikat „niezgodna instalacja”</h2>
+  <p>Okno „Nienudno — niezgodna instalacja” znaczy, że launcher nie może potwierdzić swojej instalacji. Zapisy i światy nie są zmieniane.</p>
+  <ol class="steps">
+    <li>Zamknij okno i uruchom Nienudno skrótem <strong>„Nienudny Launcher Pro”</strong> na pulpicie.</li>
+    <li>Jeśli komunikat wraca, otwórz <a href="https://da.gd/nienudno">da.gd/nienudno</a> i uruchom pobrany program. Kroki są opisane na <a href="index.html">stronie pobierania</a>. Link da.gd/nnd948 z komunikatu prowadzi do tego samego programu.</li>
+    <li>Jeśli program naprawy napisze, że Minecraft lub launcher nadal działa, zapisz i zamknij grę, a potem uruchom go ponownie. Pobrane pliki zostają.</li>
+  </ol>
+  <div class="note">Nie przenoś ani nie kopiuj folderów Nienudno ręcznie. Naprawa sama zostawia jedną, najnowszą wersję i przenosi światy ze starszych wersji do „Zapisanych światów”.</div>
+</section>
+
+<section class="card">
+  <h2>Pomoc</h2>
+  <!-- TODO(Filip): podać ogólny kanał kontaktu (bez imion, telefonów i nazw szkół), jeśli ma być na stronie. -->
+  <p>Jeśli problem się powtarza, skontaktuj się z koordynatorem zajęć Nienudno. Podaj numer wersji widoczny w launcherze i dokładną treść komunikatu.</p>
+</section>
+</main>
+<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.48 (9 listopada 2026).</div></footer>
+</body>
+</html>
