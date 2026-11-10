@@ -1,21 +1,16 @@
 {
     "schemaVersion":  1,
-    "releaseId":  "9.7-complete48",
-    "version":  "9.7.0-complete.48",
-    "publishedUtc":  "2026-11-09T18:39:28Z",
+    "releaseId":  "9.7-complete49",
+    "version":  "9.7.0-complete.49",
+    "publishedUtc":  "2026-11-10T09:22:01Z",
     "highlights":  [
-                       "Szybka instalacja: link da.gd/nienudno instaluje od razu najnowszą wersję, bez starego etapu 9.5. Na laptopie T450 trwa to ok. 8 minut zamiast ponad godziny.",
-                       "GRAJ dużo szybciej: Minecraft przygotowuje się w tle, a ta sama misja otwiera się na T450 w ok. 9 sekund.",
-                       "Launcher nie przestaje się uruchamiać po czyszczeniu plików tymczasowych Windows.",
-                       "Nowy, zatwierdzony panel instruktora.",
-                       "Panel instruktora ma nowy wygląd z ikonami z gry i naprawione przeciąganie.",
-                       "Lekcje Pythona działają na Minecraft 1.8.9 i korzystają z tej samej gry co inne lekcje.",
-                       "Opcji awaryjnego Forge 1.8.9 nie ma już w Ustawieniach: wszystkie lekcje 1.8.9 działają na jednej wersji gry.",
-                       "CYBER (lekcja 1 i 2) oraz Hogwart działają na Minecraft 1.8.9 zamiast starej wersji 1.16.5.",
-                       "Lekcja Świąteczna: poprawione otwieranie prezentu i jajka przywołujące stworzenia.",
-                       "SpyBot w trybie turbo: złoty połysk na wybranej skórce robota i poprawki płynności ruchu.",
-                       "Poprawione teksty w światach 37 lekcji. Te lekcje przy pierwszym wejściu zaczynają się od świeżego świata.",
-                       "Jeśli Windows pokaże „System Windows ochronił ten komputer”: kliknij „Więcej informacji”, potem „Uruchom mimo to”.",
-                       "Instalacja sprawdza na początku, czy jest dość miejsca na dysku."
+                       "Szybsza zmiana misji: na laptopie T450 przejście do innej misji trwa ok. 26–36 s zamiast 42–48 s.",
+                       "Lekcja Wielkanocna działa na Minecraft 1.8.9, z widocznymi manekinami i portalem działającym także przy niskiej liczbie klatek.",
+                       "Meble z lekcji obracają się tak jak w oryginale i można je tworzyć przy stole rzemieślniczym.",
+                       "Poprawki w lekcji Świątecznej i w różdżkach.",
+                       "Panel instruktora: teleport gracza w tym samym świecie i tej samej misji, z przyciskiem „Cofnij”.",
+                       "Przyciski pokoju w panelu są nad kafelkami i można je kliknąć.",
+                       "Laptop bez przygotowanej sieci klasy pokazuje jasny komunikat zamiast błędu o uprawnieniach do plików.",
+                       "Naprawa instalacji nie przenosi już skrótu „Zmień tapetę Minecraft” z pulpitu."
                    ]
 }
