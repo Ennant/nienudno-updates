@@ -1,11 +1,25 @@
 {
     "schemaVersion":  1,
-    "releaseId":  "9.7-complete52-1",
+    "releaseId":  "9.7-complete52-2",
     "version":  "9.7.0-complete.52",
-    "publishedUtc":  "2026-11-13T10:22:16Z",
+    "publishedUtc":  "2026-11-13T12:48:27Z",
     "highlights":  [
-                       "Misje A2 od lekcji 8 („Is Python a Snake?” i dalsze) znowu się uruchamiają. Wcześniej kończyły się oknem „Plik lub profil nie zgadza się ze zweryfikowaną paczką”.",
-                       "Gdy instalacja jest za stara dla wybranej misji (np. brakuje modu Pythona), launcher mówi to wprost i prosi o aktualizację, zamiast pokazywać ogólny komunikat o niezgodnej paczce.",
-                       "Laptop bez internetu pobierze tę poprawkę z laptopa w sieci klasy, który już ją ma."
+                       "Szybszy start gry: przy pierwszym GRAJ bez działającej gry launcher sprawdza pliki gry raz zamiast dwa razy (na starych laptopach z dyskiem HDD ok. 10 s mniej).",
+                       "Gdy dziecko wybierze misję, a gra w tle już czeka, świat misji przygotowuje się od razu obok niej — GRAJ chwilę później wchodzi szybciej.",
+                       "Zamknięcie launchera w trakcie przygotowania świata nie zostawia już na dysku resztek ani działającego w tle konwertera; resztki z wcześniejszych przerw są sprzątane przy starcie.",
+                       "Grupa, której host zniknął: gość może poczekać z grą w tle i wrócić do grupy, a misja z przerwaną sesją uruchamia grę w tle także dla grup.",
+                       "Zawiera wszystkie poprawki .52-1 (lekcje A2 od 8, komunikat o za starej instalacji).",
+                       "Laptop w klasie, który przestał odpowiadać, jest pomijany po kilku sekundach i aktualizacja pobiera się od następnego (wcześniej jeden „martwy” laptop potrafił zatrzymać pobieranie na kilka minut).",
+                       "Przy włączaniu pobranej aktualizacji pełne sprawdzanie dotyczy tylko plików zmienionych i startowych — włączanie jest szybsze na wolnych dyskach.",
+                       "Dodanie profilu Wi-Fi zajęć nie zmienia kolejności sieci: bieżąca sieć laptopa zostaje pierwsza.",
+                       "Napis „Połącz z siecią zajęć” pokazuje się nad grą także po przełączeniu jej na pełny ekran, nie myli się po cofnięciu zegara (np. rozładowany laptop) i pomija wirtualne karty sieciowe.",
+                       "Sygnał klasy przez hotspot telefonu obciąża sieć mniej (do prowadzącego co sekundę, do pozostałych co 5 s), a laptop słyszany tylko tą drogą nie znika z panelu.",
+                       "Kafelek zmienia się na żółty („słaby sygnał”) dopiero po 8 s bez sygnału (mniej migania na hotspocie).",
+                       "„Najlepszy (auto)” nie wybiera już laptopa prowadzącego na hosta grupy.",
+                       "Aktywacja aktualizacji sprawdza pełnym SHA-256 tylko pliki zmienione i pliki startowe; pozostałe po rozmiarze i dacie z chwili sprawdzenia. Bajt podmieniony w niezmienionym pliku przy zachowanym rozmiarze i dacie nie zostanie wtedy wykryty; wykrywa go „Napraw” i wycofanie wersji (decyzja Filipa 247A).",
+                       "Polecenia panelu są nadal jednorazowe (samonaprawa grup przygotowana, ale wyłączona do pełnych testów).",
+                       "Panel w wersji .52 pokazuje laptopy .52-2 na hotspocie częściej jako „słaby sygnał” (wystarczy zaktualizować laptop prowadzącego).",
+                       "Rzadki postój launchera na przygotowaniu misji (znany z .50/.51) pozostaje.",
+                       "To wydanie sprawdzono testami automatycznymi i na komputerze testowym, bez laptopów w klasie: przyspieszenie startu, pobieranie aktualizacji od innych laptopów i widoczność laptopów w panelu prowadzącego na hotspocie nie są jeszcze zmierzone na sprzęcie."
                    ]
 }
