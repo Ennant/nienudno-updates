@@ -1,31 +1,11 @@
 {
     "schemaVersion":  1,
-    "releaseId":  "9.7-complete52",
+    "releaseId":  "9.7-complete52-1",
     "version":  "9.7.0-complete.52",
-    "publishedUtc":  "2026-11-13T01:39:54Z",
+    "publishedUtc":  "2026-11-13T10:22:16Z",
     "highlights":  [
-                       "Łączenie w grupy jest szybsze: goście przygotowują grę równocześnie z hostem i dołączają po adresie potwierdzonym przez hosta (wejście do świata zwykle w kilka sekund, gdy gra już działa).",
-                       "Gość, który po zniknięciu hosta stoi na ekranie „Utracono połączenie”, po przeciągnięciu do nowej grupy sam uruchamia grę od nowa i dołącza.",
-                       "Launcher nie pokazuje już dziecku okna administratora (UAC) ani paska „Przygotuj dostęp LAN”; sieć klasy przygotowuje flota albo instalator.",
-                       "Laptop, który był z prowadzącym, a znalazł się w innej sieci, pokazuje duży napis „Połącz z siecią zajęć” z nazwą sieci.",
-                       "Launcher sam dodaje profile Wi-Fi zajęć (routerek i hotspot prowadzącego) i łączy się z nimi, gdy laptop nie ma żadnej sieci.",
-                       "Sygnał klasy dociera także przez hotspot telefonu, który gubi wiadomości rozgłoszeniowe.",
-                       "Zaznaczenie nie znika po kliknięciu polecenia ani po zmianie widoku; „Wszyscy” zaznacza też laptop prowadzącego.",
-                       "Przyciski nie szarzeją bez powodu; hostem może być każde dziecko (także bez wczytanego świata).",
-                       "Przeciągnięcie dziecka na dziecko = ten sam świat, a dziecko od razu staje obok hosta; ender perła = przenieś w to samo miejsce.",
-                       "Bateria i zasilacz przy każdym laptopie; „Najlepszy (auto)” wybiera hosta na zasilaczu albo z najwyższą baterią.",
-                       "Losowe grupy (🎲), „Misja lekcji” i „Zbierz logi z klasy” (⚙).",
-                       "Włącz wszystkie laptopy 2–3 minuty przed lekcją i zostaw launcher otwarty, wtedy grupy łączą się w kilka sekund.",
-                       "Po padnięciu hosta przeciągnij dzieci do nowego hosta; szybciej, jeśli dziecko kliknie „Wróć do listy serwerów”, potem „Anuluj”.",
-                       "Pytanie „aktualizuj teraz czy później” nie pojawia się przez 15 minut od usłyszenia prowadzącego (nie przeszkadza w lekcji).",
-                       "Misja testowa „Gate 3 QA Hub” nie pokazuje się dzieciom.",
-                       "Konwerter światów zapisuje banery, tabliczki i skrzynie pod nazwami z wersji 1.8.9 (zabezpieczenie).",
-                       "Polecenia panelu są jednorazowe: laptop, który w chwili kliknięcia był wyłączony albo poza siecią, nie nadrobi polecenia sam — trzeba kliknąć jeszcze raz (samonaprawa grup w następnym wydaniu).",
-                       "Jeśli gra dziecka zamknęła się w trakcie misji (np. rozładowany laptop), gra w tle czeka, aż dziecko kliknie GRAJ; do tego czasu dołączenie do grupy trwa 1–2 minuty (start gry od zera).",
-                       "Gościa stojącego na ekranie „Utracono połączenie” nie da się wysłać na misję przyciskiem misji — trzeba go przeciągnąć do grupy.",
-                       "Przy bardzo dużej klasie (25–30 laptopów) sygnał klasy mocniej obciąża sieć; przy 7–10 laptopach to ok. 200 KB/s.",
-                       "Rzadki postój launchera na przygotowaniu misji (znany z .50/.51) pozostaje.",
-                       "Zapamiętanie laptopa prowadzącego (do napisu „Połącz z siecią zajęć”) nie było jeszcze sprawdzone na prawdziwych laptopach.",
-                       "Nowo dodany profil Wi-Fi zajęć może znaleźć się na liście sieci przed obecną siecią laptopa (bieżące połączenie zostaje)."
+                       "Misje A2 od lekcji 8 („Is Python a Snake?” i dalsze) znowu się uruchamiają. Wcześniej kończyły się oknem „Plik lub profil nie zgadza się ze zweryfikowaną paczką”.",
+                       "Gdy instalacja jest za stara dla wybranej misji (np. brakuje modu Pythona), launcher mówi to wprost i prosi o aktualizację, zamiast pokazywać ogólny komunikat o niezgodnej paczce.",
+                       "Laptop bez internetu pobierze tę poprawkę z laptopa w sieci klasy, który już ją ma."
                    ]
 }
