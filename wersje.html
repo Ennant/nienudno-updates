@@ -15,9 +15,10 @@
 <h1>Wersje i lista zmian</h1>
 <p>Najnowsza wersja jest na górze. Laptopy aktualizują się przyciskiem „Aktualizuj” w launcherze, przez Wi-Fi od innego laptopa w klasie albo programem z <a href="index.html">strony pobierania</a>. Opisy starszych wersji zostawiamy w oryginalnym brzmieniu.</p>
 <section class="card">
-  <h2>Spis wersji (44)</h2>
+  <h2>Spis wersji (45)</h2>
   <ul class="toc">
-    <li><a href="#v-9.7-complete53">9.7-complete53</a> <span class="badge">najnowsza</span></li>
+    <li><a href="#v-9.7-complete54">9.7-complete54</a> <span class="badge">najnowsza</span></li>
+    <li><a href="#v-9.7-complete53">9.7-complete53</a></li>
     <li><a href="#v-9.7-complete52-2">9.7-complete52-2</a></li>
     <li><a href="#v-9.7-complete52-1">9.7-complete52-1</a></li>
     <li><a href="#v-9.7-complete52">9.7-complete52</a></li>
@@ -63,9 +64,68 @@
     <li><a href="#v-9.4.8-powers1">9.4.8-powers1</a></li>
   </ul>
 </section>
+<article class="card release" id="v-9.7-complete54">
+<!-- source: releases/9.7-complete54.md -->
+<h2>Nienudno 9.7.0-complete.54 <span class="badge">najnowsza</span></h2>
+<p>Data wydania: listopad 2026. Świat i rozgrywka bez zmian względem .53; laptopy .51, .52, .53 i .54 grają razem.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>Pilnowanie klasy przez panel prowadzącego: cele grup ustawione w panelu laptopy trzymają same, także gdy panel na chwilę zniknie albo laptop dołączy później.</li>
+<li>Automatyczne pobieranie aktualizacji ustępuje grze: gdy gra startuje, trwające pobieranie od laptopów lub z internetu się zatrzymuje.</li>
+<li>Wyłączone komunikaty powitalne i sprawdzanie aktualizacji w modach (CustomNPCs, SecurityCraft, Forge 1.16.5), więc w grze nie wyskakują już obce ogłoszenia.</li>
+</ul>
+<h3>Launcher</h3>
+<ul>
+<li>Lżejszy launcher (ten sam układ): poziomy i księgi jako zakładki-pigułki, ustawienia pod zębatką, „Aktualizuj” widać tylko, gdy aktualizacja czeka; mniejsze tła (plik launchera ok. 3 razy mniejszy).</li>
+<li>Przełącznik grafiki „Oszczędna | Premium” w oknie głównym.</li>
+<li>Stan sieci zajęć widać na kropce zakładki „Sieć LAN”; komunikat o sieci jest w tym panelu, bez osobnego okna i bez zabierania okna gry.</li>
+<li>Okno „Nowe mody” znika samo, gdy w trakcie odliczania wystartuje gra.</li>
+<li>Okno gry ma własną ikonę na pasku zadań.</li>
+<li>Usunięte: skrót F12 i galeria tapet pulpitu. Pliki tapet znikają z instalacji przy aktualizacji; launcher ich nie szuka (sprawdzone przy aktualizacji z .52-2).</li>
+</ul>
+<h3>Gra i lekcje</h3>
+<ul>
+<li>Nowe, krótkie opisy misji na karcie wybranej lekcji (60 lekcji).</li>
+<li>Porządek w liście misji: „Zapas 2 - Blue Problem” i stara Wielkanoc 1.16.5 znikają z listy i z panelu (pliki i zapisy dzieci zostają). Zapas 2 otwiera się teraz jako lekcja A1.U6.L28; „L.Wielkanocna - Egg Hunt 2024” nazywa się „Lekcja Wielkanocna - Egg Hunt”.</li>
+<li>Białe oczy zwierząt przy najniższej grafice: gdy animacje Fresh Animations są wyłączone, gra działa bez ich paczki zasobów (także wybranej wcześniej ręcznie), więc oczy zwierząt są zwykłe.</li>
+<li>Wyjście z gry 1.8.9 po zamknięciu przez system (np. wyłączanie laptopa) zapisuje świat i kończy się samo, zamiast wisieć.</li>
+<li>Nowy przycisk „Sprawdź Pythona” w Ustawieniach (Laptop) i zdalnie z kafelka laptopa w panelu.</li>
+<li>Ściągi prowadzącego: A2.U2.L8 i A2.U4.L19 opisują pusty hello.py; z list modów 1.8.9 zniknął OptiFine (1.8.9 go nie ładuje).</li>
+<li>Gra 1.8.9 z Lux startuje z ustawieniem grafiki zgodnym z wybranym trybem.</li>
+</ul>
+<h3>Aktualizacje i porządek</h3>
+<ul>
+<li>Gdy pobieranie od laptopów w klasie kilka razy się nie uda, launcher na chwilę przestaje próbować i bierze z internetu.</li>
+<li>Launcher sprząta po sobie stare pliki tymczasowe aktualizacji i przycina długi log gry (16 MB), z limitem czasu, by nie opóźniać startu.</li>
+<li>Kopie odzyskiwania starszych wydań są usuwane bezpiecznie (nie w trakcie ich użycia).</li>
+<li>Launcher zapisuje ślad, gdy gra przestaje odpowiadać (tylko do logu, bez okien).</li>
+</ul>
+<h3>Uwagi dla prowadzących</h3>
+<ul>
+<li>Laptopy z .53 pobiorą .54 i poczekają na „Zwolnij dla klasy” w panelu (zmienia się jeden plik modów 1.8.9). Laptopy z .51 i .52 zaktualizują się jak zwykle.</li>
+<li>Z .51 pobieranie jest większe niż z .52/.53 (dochodzą zmiany z .52 i .53), więc warto zaktualizować laptopy przed zajęciami, na domowym Wi-Fi.</li>
+</ul>
+<h3>Pilnowanie misji przez panel — gdy coś nie tak</h3>
+<ul>
+<li>Wyłączenie: przycisk misji na pasku panelu → „Zakończ zajęcia” bez zaznaczonych laptopów → potwierdź. To zapisuje i zamyka gry dzieci oraz zdejmuje „Hands Up”. Cele są kasowane od razu, nie wracają po restarcie.</li>
+<li>UWAGA: jeśli w klasie jest laptop ze starszą wersją, „Zakończ zajęcia” bez zaznaczenia pokaże „Najpierw zaktualizuj laptopy…” i panel DALEJ pilnuje klasy. Wtedy zaznacz wszystkie laptopy .54 (bez swojego) i kliknij „Zakończ zajęcia” jeszcze raz. W ostateczności zamknij Nienudno na swoim laptopie. (Poprawka w .55.)</li>
+<li>Zamknięcie okna panelu (✕) nie zatrzymuje pilnowania (działa w tle do 90 min). Zatrzymuje je zamknięcie Nienudno na laptopie prowadzącego.</li>
+<li>Dziecko, które samo wyjdzie z misji do menu, po ok. 10 s wraca do misji — tak ma być.</li>
+<li>Po „Przejmij klasę” cele obu paneli są kasowane: misję trzeba wybrać od nowa.</li>
+<li>Nie są pilnowane laptopy z wersją starszą niż .54 ani laptopy z otwartym panelem.</li>
+</ul>
+<h3>Znane problemy</h3>
+<ul>
+<li>Aktywacja aktualizacji sprawdza pełnym SHA-256 tylko pliki zmienione i pliki startowe (jak w .52-2, decyzja 247A).</li>
+<li>Polecenia panelu są nadal jednorazowe.</li>
+<li>Rzadki postój launchera na przygotowaniu misji (znany z .50/.51) pozostaje.</li>
+<li>NIEPOTWIERDZONE: pilnowanie misji przez panel nie było próbowane na prawdziwych laptopach przed wydaniem (sprawdzone tylko testami automatycznymi, w tym testami chaosu). Pierwsze użycie na sprzęcie to pierwsze zajęcia z .54.</li>
+<li>Laptopy z Debianem nie są pilnowane przez panel (polecenia prowadzącego do nich dochodzą jak dotąd).</li>
+</ul>
+</article>
 <article class="card release" id="v-9.7-complete53">
 <!-- source: releases/9.7-complete53.md -->
-<h2>Nienudno 9.7.0-complete.53 <span class="badge">najnowsza</span></h2>
+<h2>Nienudno 9.7.0-complete.53</h2>
 <p>Data wydania: listopad 2026. Gry i świat działają tak samo jak w .52 (jedyna zmiana w modach dotyczy tylko ekranu wyjścia z gry), więc laptopy .52, .52-2 i .53 grają razem.</p>
 <h3>Najważniejsze</h3>
 <ul>
@@ -994,6 +1054,6 @@
 <p>Aktualizacja używa podpisanego kanału internetowego i pobiera brakujące pliki. Licznik weryfikacji lokalnych plików może obejmować całą instalację (~4.3 GB); nie jest to rozmiar nowego moda ani sam transfer internetowy.</p>
 </article>
 </main>
-<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.53 (16 listopada 2026).</div></footer>
+<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.54 (16 listopada 2026).</div></footer>
 </body>
 </html>
