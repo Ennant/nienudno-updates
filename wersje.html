@@ -15,9 +15,15 @@
 <h1>Wersje i lista zmian</h1>
 <p>Najnowsza wersja jest na górze. Laptopy aktualizują się przyciskiem „Aktualizuj” w launcherze, przez Wi-Fi od innego laptopa w klasie albo programem z <a href="index.html">strony pobierania</a>. Opisy starszych wersji zostawiamy w oryginalnym brzmieniu.</p>
 <section class="card">
-  <h2>Spis wersji (38)</h2>
+  <h2>Spis wersji (44)</h2>
   <ul class="toc">
-    <li><a href="#v-9.7-complete49">9.7-complete49</a> <span class="badge">najnowsza</span></li>
+    <li><a href="#v-9.7-complete53">9.7-complete53</a> <span class="badge">najnowsza</span></li>
+    <li><a href="#v-9.7-complete52-2">9.7-complete52-2</a></li>
+    <li><a href="#v-9.7-complete52-1">9.7-complete52-1</a></li>
+    <li><a href="#v-9.7-complete52">9.7-complete52</a></li>
+    <li><a href="#v-9.7-complete51">9.7-complete51</a></li>
+    <li><a href="#v-9.7-complete50-4">9.7-complete50-4</a></li>
+    <li><a href="#v-9.7-complete49">9.7-complete49</a></li>
     <li><a href="#v-9.7-complete48">9.7-complete48</a></li>
     <li><a href="#v-9.7-complete47">9.7-complete47</a></li>
     <li><a href="#v-9.7-complete45">9.7-complete45</a></li>
@@ -57,9 +63,205 @@
     <li><a href="#v-9.4.8-powers1">9.4.8-powers1</a></li>
   </ul>
 </section>
+<article class="card release" id="v-9.7-complete53">
+<!-- source: releases/9.7-complete53.md -->
+<h2>Nienudno 9.7.0-complete.53 <span class="badge">najnowsza</span></h2>
+<p>Data wydania: listopad 2026. Gry i świat działają tak samo jak w .52 (jedyna zmiana w modach dotyczy tylko ekranu wyjścia z gry), więc laptopy .52, .52-2 i .53 grają razem.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>Bramka klasy: wydanie, które zmienia mody, laptop pobiera i sprawdza, ale włącza dopiero, gdy prowadzący zwolni je dla klasy — w trakcie zajęć wszyscy grają na tych samych modach. W panelu prowadzącego widać, które laptopy mają takie wydanie gotowe („Nowe mody”).</li>
+<li>W trakcie gry launcher nie pobiera aktualizacji od innych laptopów przez Wi-Fi zajęć (wcześniej potrafił pobierać gigabajty w trakcie lekcji).</li>
+<li>Komunikat o sieci zajęć nie wyskakuje w trakcie gry i nie zabiera jej okna.</li>
+<li>Nowa lekcja w bibliotece: Wielkanoc — Egg Hunt (mapa 2023) w wersji 1.8.9, obok mapy 2024.</li>
+</ul>
+<h3>Gra i lekcje</h3>
+<ul>
+<li>Wyjście z gry nie wygląda już na zawieszenie: po 2 s widać „Zapisujemy świat…”, a przy długim zapisie launcher zbiera informacje dla nas (samo czekanie na zapis się nie zmieniło).</li>
+<li>Python (IDLE): uruchomione programy nie zostawiają plików __pycache__ w instalacji.</li>
+<li>Lekcja z pierwszym programem w Pythonie (A2.U2.L8): nowy folder MyAdventures dostaje pusty hello.py; niezmieniony stary gotowy plik startowy zostaje opróżniony, programy dzieci są nietknięte.</li>
+</ul>
+<h3>Aktualizacje</h3>
+<ul>
+<li>Pobieranie od innego laptopa w klasie idzie kilkoma częściami naraz (szybciej na dobrym Wi-Fi).</li>
+<li>Gdy pobieranie od laptopów w klasie się nie uda, launcher sam kończy je z internetu (w sieci zajęć najwyżej 200 MB; większe — do kliknięcia „Aktualizuj”).</li>
+</ul>
+<h3>Światy 1.8.9</h3>
+<ul>
+<li>Konwerter światów usuwa leżące na ziemi przedmioty, których gra nie zna (wcześniej zapisywały błędy „has no item”). Zapasowy konwerter (Python) robi to samo co główny.</li>
+</ul>
+<h3>Znane problemy</h3>
+<ul>
+<li>Aktywacja aktualizacji sprawdza pełnym SHA-256 tylko pliki zmienione i pliki startowe (jak w .52-2, decyzja 247A).</li>
+<li>Ściągi prowadzącego do lekcji A2.U2.L8 i A2.U4.L19 nadal opisują gotowy hello.py (poprawione zdania w .54).</li>
+<li>Polecenia panelu są nadal jednorazowe.</li>
+<li>Rzadki postój launchera na przygotowaniu misji (znany z .50/.51) pozostaje.</li>
+<li>To wydanie sprawdzono testami automatycznymi i na komputerze testowym, bez laptopów w klasie: bramka klasy, pobieranie kilkoma częściami i dokończenie z internetu nie są jeszcze sprawdzone na sprzęcie.</li>
+</ul>
+</article>
+<article class="card release" id="v-9.7-complete52-2">
+<!-- source: releases/9.7-complete52-2.md -->
+<h2>Nienudno 9.7.0-complete.52 (poprawka 2)</h2>
+<p>Data wydania: listopad 2026. Wydanie tylko launchera: gry, mody i światy są takie same jak w .52, więc laptopy .51, .52 i .52-2 grają razem.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>Szybszy start gry: przy pierwszym GRAJ bez działającej gry launcher sprawdza pliki gry raz zamiast dwa razy (na starych laptopach z dyskiem HDD ok. 10 s mniej).</li>
+<li>Gdy dziecko wybierze misję, a gra w tle już czeka, świat misji przygotowuje się od razu obok niej — GRAJ chwilę później wchodzi szybciej.</li>
+<li>Zamknięcie launchera w trakcie przygotowania świata nie zostawia już na dysku resztek ani działającego w tle konwertera; resztki z wcześniejszych przerw są sprzątane przy starcie.</li>
+<li>Grupa, której host zniknął: gość może poczekać z grą w tle i wrócić do grupy, a misja z przerwaną sesją uruchamia grę w tle także dla grup.</li>
+<li>Zawiera wszystkie poprawki .52-1 (lekcje A2 od 8, komunikat o za starej instalacji).</li>
+</ul>
+<h3>Aktualizacje</h3>
+<ul>
+<li>Laptop w klasie, który przestał odpowiadać, jest pomijany po kilku sekundach i aktualizacja pobiera się od następnego (wcześniej jeden „martwy” laptop potrafił zatrzymać pobieranie na kilka minut).</li>
+<li>Przy włączaniu pobranej aktualizacji pełne sprawdzanie dotyczy tylko plików zmienionych i startowych — włączanie jest szybsze na wolnych dyskach.</li>
+</ul>
+<h3>Sieć zajęć</h3>
+<ul>
+<li>Dodanie profilu Wi-Fi zajęć nie zmienia kolejności sieci: bieżąca sieć laptopa zostaje pierwsza.</li>
+<li>Napis „Połącz z siecią zajęć” pokazuje się nad grą także po przełączeniu jej na pełny ekran, nie myli się po cofnięciu zegara (np. rozładowany laptop) i pomija wirtualne karty sieciowe.</li>
+<li>Sygnał klasy przez hotspot telefonu obciąża sieć mniej (do prowadzącego co sekundę, do pozostałych co 5 s), a laptop słyszany tylko tą drogą nie znika z panelu.</li>
+</ul>
+<h3>Panel prowadzącego</h3>
+<ul>
+<li>Kafelek zmienia się na żółty („słaby sygnał”) dopiero po 8 s bez sygnału (mniej migania na hotspocie).</li>
+<li>„Najlepszy (auto)” nie wybiera już laptopa prowadzącego na hosta grupy.</li>
+</ul>
+<h3>Znane problemy</h3>
+<ul>
+<li>Aktywacja aktualizacji sprawdza pełnym SHA-256 tylko pliki zmienione i pliki startowe; pozostałe po rozmiarze i dacie z chwili sprawdzenia. Bajt podmieniony w niezmienionym pliku przy zachowanym rozmiarze i dacie nie zostanie wtedy wykryty; wykrywa go „Napraw” i wycofanie wersji (decyzja Filipa 247A).</li>
+</ul>
+<ul>
+<li>Polecenia panelu są nadal jednorazowe (samonaprawa grup przygotowana, ale wyłączona do pełnych testów).</li>
+<li>Panel w wersji .52 pokazuje laptopy .52-2 na hotspocie częściej jako „słaby sygnał” (wystarczy zaktualizować laptop prowadzącego).</li>
+<li>Rzadki postój launchera na przygotowaniu misji (znany z .50/.51) pozostaje.</li>
+<li>To wydanie sprawdzono testami automatycznymi i na komputerze testowym, bez laptopów w klasie: przyspieszenie startu, pobieranie aktualizacji od innych laptopów i widoczność laptopów w panelu prowadzącego na hotspocie nie są jeszcze zmierzone na sprzęcie.</li>
+</ul>
+</article>
+<article class="card release" id="v-9.7-complete52-1">
+<!-- source: releases/9.7-complete52-1.md -->
+<h2>Nienudno 9.7.0-complete.52 (poprawka 1)</h2>
+<p>Data wydania: listopad 2026. Pilna poprawka launchera: gry, mody i światy są takie same jak w .52.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>Misje A2 od lekcji 8 („Is Python a Snake?” i dalsze) znowu się uruchamiają. Wcześniej kończyły się oknem „Plik lub profil nie zgadza się ze zweryfikowaną paczką”.</li>
+<li>Gdy instalacja jest za stara dla wybranej misji (np. brakuje modu Pythona), launcher mówi to wprost i prosi o aktualizację, zamiast pokazywać ogólny komunikat o niezgodnej paczce.</li>
+</ul>
+<h3>Dla instruktora</h3>
+<ul>
+<li>Laptop bez internetu pobierze tę poprawkę z laptopa w sieci klasy, który już ją ma.</li>
+</ul>
+</article>
+<article class="card release" id="v-9.7-complete52">
+<!-- source: releases/9.7-complete52.md -->
+<h2>Nienudno 9.7.0-complete.52</h2>
+<p>Data wydania: listopad 2026. Wydanie tylko launchera: gry, mody i światy są takie same jak w .51, więc laptopy .51 i .52 grają razem w jednej grupie.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>Łączenie w grupy jest szybsze: goście przygotowują grę równocześnie z hostem i dołączają po adresie potwierdzonym przez hosta (wejście do świata zwykle w kilka sekund, gdy gra już działa).</li>
+<li>Gość, który po zniknięciu hosta stoi na ekranie „Utracono połączenie”, po przeciągnięciu do nowej grupy sam uruchamia grę od nowa i dołącza.</li>
+<li>Launcher nie pokazuje już dziecku okna administratora (UAC) ani paska „Przygotuj dostęp LAN”; sieć klasy przygotowuje flota albo instalator.</li>
+<li>Laptop, który był z prowadzącym, a znalazł się w innej sieci, pokazuje duży napis „Połącz z siecią zajęć” z nazwą sieci.</li>
+<li>Launcher sam dodaje profile Wi-Fi zajęć (routerek i hotspot prowadzącego) i łączy się z nimi, gdy laptop nie ma żadnej sieci.</li>
+<li>Sygnał klasy dociera także przez hotspot telefonu, który gubi wiadomości rozgłoszeniowe.</li>
+</ul>
+<h3>Panel prowadzącego</h3>
+<ul>
+<li>Zaznaczenie nie znika po kliknięciu polecenia ani po zmianie widoku; „Wszyscy” zaznacza też laptop prowadzącego.</li>
+<li>Przyciski nie szarzeją bez powodu; hostem może być każde dziecko (także bez wczytanego świata).</li>
+<li>Przeciągnięcie dziecka na dziecko = ten sam świat, a dziecko od razu staje obok hosta; ender perła = przenieś w to samo miejsce.</li>
+<li>Bateria i zasilacz przy każdym laptopie; „Najlepszy (auto)” wybiera hosta na zasilaczu albo z najwyższą baterią.</li>
+<li>Losowe grupy (🎲), „Misja lekcji” i „Zbierz logi z klasy” (⚙).</li>
+</ul>
+<h3>Dla instruktora</h3>
+<ul>
+<li>Włącz wszystkie laptopy 2–3 minuty przed lekcją i zostaw launcher otwarty, wtedy grupy łączą się w kilka sekund.</li>
+<li>Po padnięciu hosta przeciągnij dzieci do nowego hosta; szybciej, jeśli dziecko kliknie „Wróć do listy serwerów”, potem „Anuluj”.</li>
+<li>Pytanie „aktualizuj teraz czy później” nie pojawia się przez 15 minut od usłyszenia prowadzącego (nie przeszkadza w lekcji).</li>
+<li>Misja testowa „Gate 3 QA Hub” nie pokazuje się dzieciom.</li>
+<li>Konwerter światów zapisuje banery, tabliczki i skrzynie pod nazwami z wersji 1.8.9 (zabezpieczenie).</li>
+</ul>
+<h3>Znane problemy</h3>
+<ul>
+<li>Polecenia panelu są jednorazowe: laptop, który w chwili kliknięcia był wyłączony albo poza siecią, nie nadrobi polecenia sam — trzeba kliknąć jeszcze raz (samonaprawa grup w następnym wydaniu).</li>
+<li>Jeśli gra dziecka zamknęła się w trakcie misji (np. rozładowany laptop), gra w tle czeka, aż dziecko kliknie GRAJ; do tego czasu dołączenie do grupy trwa 1–2 minuty (start gry od zera).</li>
+<li>Gościa stojącego na ekranie „Utracono połączenie” nie da się wysłać na misję przyciskiem misji — trzeba go przeciągnąć do grupy.</li>
+<li>Przy bardzo dużej klasie (25–30 laptopów) sygnał klasy mocniej obciąża sieć; przy 7–10 laptopach to ok. 200 KB/s.</li>
+<li>Rzadki postój launchera na przygotowaniu misji (znany z .50/.51) pozostaje.</li>
+<li>Zapamiętanie laptopa prowadzącego (do napisu „Połącz z siecią zajęć”) nie było jeszcze sprawdzone na prawdziwych laptopach.</li>
+<li>Nowo dodany profil Wi-Fi zajęć może znaleźć się na liście sieci przed obecną siecią laptopa (bieżące połączenie zostaje).</li>
+</ul>
+</article>
+<article class="card release" id="v-9.7-complete51">
+<!-- source: releases/9.7-complete51.md -->
+<h2>Nienudno 9.7.0-complete.51</h2>
+<p>Data wydania: listopad 2026.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>Koniec „błędu ścieżki” na nowo zainstalowanych laptopach; nowe okno „Napraw” pokazuje kroki, procent i pozostały czas, a składanie aktualizacji jest szybsze.</li>
+<li>Shadery (Lux) można włączyć i wyłączyć w grze (Opcje albo F9) bez wychodzenia ze świata; launcher zapamiętuje ten wybór na następny GRAJ. „/weather clear” od razu daje ładną pogodę, a woda ma fale.</li>
+<li>Szybsza zmiana misji: GRAJ na innej misji, gdy Minecraft już działa, nie uruchamia gry od nowa (na T430s i T450 ok. 20–30 s zamiast 80–85 s). Gdyby przełączenie się nie udało, launcher sam uruchamia grę od nowa zamiast pokazywać błąd.</li>
+<li>Po przełączeniu „Shadery” Minecraft w tle jest gotowy po ok. 20 s (wcześniej dopiero po 10 minutach).</li>
+</ul>
+<h3>Lekcje</h3>
+<ul>
+<li>Gadżety NieNudno: kaczkomiot trafia w środek celownika (także w widoku z boku F5); po tańcu Różdżki Uśmiechu kamera na chwilę pokazuje gracza z tyłu, a pająk tańczy bez odpadających nóg; zakładka „NienudnoLabs” ma pilota floty.</li>
+<li>Roboty floty przeskakują szczeliny do 3 bloków, obchodzą przeszkody i wychodzą z zamurowania bez teleportowania; „Przyjdź” działa też obok żółwi ComputerCraft.</li>
+<li>ComputerCraft: w zakładce są żółwie z narzędziami (kilof, siekiera, miecz, łopata, motyka), zwykłe i zaawansowane; SpyBot mówi dymkiem nad sobą, a nie na czacie.</li>
+<li>Statki (Archimedes): wsiadanie działa za każdym razem i nie zostaje statek-duch; sterowanie płynne.</li>
+<li>Telewizory: kliknięcie zmienia kanał, a obraz zmienia się razem z nim.</li>
+<li>Menu kreatywne: kłódka „Zaawansowane” stoi równo nad paskiem przewijania; przedmioty ze wszystkich modów (także ComputerCraft) mają prawdziwe nazwy zamiast kodów.</li>
+</ul>
+<h3>Dla instruktora</h3>
+<ul>
+<li>Ustawienia w nowym układzie: na górze „Dla Ciebie” (Shadery, tapeta, skin), niżej sprawy prowadzącego (klasa i sieć, misje i pendrive, laptop, raport i pomoc).</li>
+<li>Prostsze okno dziecka: większy GRAJ i przycisk „Pomoc”.</li>
+<li>Zmiana skina w trakcie startu gry nie przerywa już startu; okno skina pokazuje, że Minecraft się uruchamia.</li>
+<li>Launcher sam sprawdza aktualizacje po starcie i co 15 minut, ale nigdy w trakcie gry.</li>
+<li>Sieć klasy rozdaje między laptopami tylko wydane wersje, nigdy wersji testowych.</li>
+<li>Z paczki usunięto nieużywany shader Mellow (mniej miejsca na dysku).</li>
+</ul>
+<h3>Znane problemy</h3>
+<ul>
+<li>Rzadko (ok. 1 na 100 kliknięć GRAJ) launcher może zatrzymać się na przygotowaniu misji, gdy otwarta gra jest w bardzo obciążonym świecie (dużo bloków poleceń). Pomaga zamknięcie launchera i ponowne GRAJ. Błąd był już w .50; poprawka w następnym wydaniu.</li>
+<li>Wybór „Shadery” w grze sprawdzono przy wyłączaniu (F9); włączanie w grze i przycisk w Opcjach działają tym samym kodem.</li>
+</ul>
+</article>
+<article class="card release" id="v-9.7-complete50-4">
+<!-- source: releases/9.7-complete50-4.md -->
+<h2>Nienudno 9.7.0-complete.50</h2>
+<p>Data wydania: listopad 2026.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>GRAJ przy otwartym starym Minecrafcie: jeden przycisk „Zamknij go i graj” zamyka starą grę i uruchamia misję.</li>
+<li>Grafika: zamiast wyboru Oszczędna/Normalna/Premium jest jeden przełącznik „Shadery” (domyślnie wyłączony). Włączone Shadery to Lux: daleki teren, ładniejsza woda i niebo, także na słabszych laptopach; w grze F9 je wyłącza i włącza.</li>
+<li>W grze gra muzyka z nowszych wersji Minecrafta.</li>
+<li>Szybsze przygotowanie świata misji: nowy konwerter światów (ok. 2,7× szybszy); w razie problemu działa dotychczasowy.</li>
+</ul>
+<h3>Lekcje</h3>
+<ul>
+<li>Gadżety NieNudno odświeżone: nowe ikony, ekrany w nowej skórce; zakładka kreatywna z żarówką.</li>
+<li>Kaczkomiot z prawdziwymi kaczymi dźwiękami i ogłuszaniem, Różdżka Uśmiechu z dyskoteką, Budowator z prostym Pythonem, laser ŻAR z łatwiejszymi zagadkami.</li>
+<li>Flota: pilot z pierścieniem i 4 roboty (Volt, Dash, Smarty, Pixel), które zbierają, budują, uprawiają farmę i noszą do skrzyni.</li>
+<li>Drzwi w starych światach znów są całe.</li>
+<li>Zestaw SpyBot Turbo usunięty.</li>
+</ul>
+<ul>
+<li>Pilot SpyBota trzymany w lewej ręce nie zasłania już widoku, a inne przedmioty w lewej ręce są mniejsze.</li>
+<li>SpyBot: edytor programu działa poprawnie po wyjściu klawiszem Esc.</li>
+<li>Menu kreatywne: uporządkowane zakładki bez pustych, mocniejsze przedmioty za przełącznikiem „Zaawansowane”.</li>
+<li>Przedmioty SecurityCraft i statki Archimedes mają prawdziwe nazwy zamiast kodów (m.in. kłody, metale, wełna, balony w kolorach, Secured Bed).</li>
+</ul>
+<h3>Dla instruktora</h3>
+<ul>
+<li>„Zakończ zajęcia” bez zaznaczonych laptopów pyta „Zakończyć na wszystkich?” i kończy zajęcia na całej klasie.</li>
+<li>Zamknięcie launchera w trakcie gry pyta najpierw: „Trwa lekcja. Twój świat jest zapisany.” — „Wracam do gry” albo „Zamknij mimo to”.</li>
+<li>Ściąga lekcji w panelu zgodna z poprawionymi konspektami.</li>
+<li>Prostsze ustawienia: bez powtórzonych przycisków i pustej sekcji „Zaawansowane”; krótszy opis dźwięku u dzieci.</li>
+</ul>
+</article>
 <article class="card release" id="v-9.7-complete49">
 <!-- source: releases/9.7-complete49.md -->
-<h2>Nienudno 9.7.0-complete.49 <span class="badge">najnowsza</span></h2>
+<h2>Nienudno 9.7.0-complete.49</h2>
 <p>Data wydania: listopad 2026.</p>
 <h3>Najważniejsze</h3>
 <ul>
@@ -792,6 +994,6 @@
 <p>Aktualizacja używa podpisanego kanału internetowego i pobiera brakujące pliki. Licznik weryfikacji lokalnych plików może obejmować całą instalację (~4.3 GB); nie jest to rozmiar nowego moda ani sam transfer internetowy.</p>
 </article>
 </main>
-<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.49 (10 listopada 2026).</div></footer>
+<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.53 (16 listopada 2026).</div></footer>
 </body>
 </html>

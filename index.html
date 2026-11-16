@@ -14,22 +14,29 @@
 <main class="wrap">
 <section class="card hero">
   <h1>Nienudny Launcher Pro</h1>
-  <p class="version">Aktualna wersja: <strong>9.7.0-complete.49</strong> (wydanie z 10 listopada 2026)</p>
+  <p class="version">Aktualna wersja: <strong>9.7.0-complete.53</strong> (wydanie z 16 listopada 2026)</p>
   <a class="download" href="https://da.gd/nienudno">Pobierz Nienudno</a>
   <p class="small">Ten sam plik instaluje Nienudno na nowym laptopie, aktualizuje starszą wersję i naprawia instalację.<br>Pobierany plik: <code>Napraw-aktualizacje.exe</code>, ok. 100 MB.</p>
 </section>
 
 <section class="card">
-  <h2>Nowości w wersji 9.7.0-complete.49</h2>
+  <h2>Nowości w wersji 9.7.0-complete.53</h2>
   <ul class="highlights">
-    <li>Szybsza zmiana misji: na laptopie T450 przejście do innej misji trwa ok. 26–36 s zamiast 42–48 s.</li>
-    <li>Lekcja Wielkanocna działa na Minecraft 1.8.9, z widocznymi manekinami i portalem działającym także przy niskiej liczbie klatek.</li>
-    <li>Meble z lekcji obracają się tak jak w oryginale i można je tworzyć przy stole rzemieślniczym.</li>
-    <li>Poprawki w lekcji Świątecznej i w różdżkach.</li>
-    <li>Panel instruktora: teleport gracza w tym samym świecie i tej samej misji, z przyciskiem „Cofnij”.</li>
-    <li>Przyciski pokoju w panelu są nad kafelkami i można je kliknąć.</li>
-    <li>Laptop bez przygotowanej sieci klasy pokazuje jasny komunikat zamiast błędu o uprawnieniach do plików.</li>
-    <li>Naprawa instalacji nie przenosi już skrótu „Zmień tapetę Minecraft” z pulpitu.</li>
+    <li>Bramka klasy: wydanie, które zmienia mody, laptop pobiera i sprawdza, ale włącza dopiero, gdy prowadzący zwolni je dla klasy — w trakcie zajęć wszyscy grają na tych samych modach. W panelu prowadzącego widać, które laptopy mają takie wydanie gotowe („Nowe mody”).</li>
+    <li>W trakcie gry launcher nie pobiera aktualizacji od innych laptopów przez Wi-Fi zajęć (wcześniej potrafił pobierać gigabajty w trakcie lekcji).</li>
+    <li>Komunikat o sieci zajęć nie wyskakuje w trakcie gry i nie zabiera jej okna.</li>
+    <li>Nowa lekcja w bibliotece: Wielkanoc — Egg Hunt (mapa 2023) w wersji 1.8.9, obok mapy 2024.</li>
+    <li>Wyjście z gry nie wygląda już na zawieszenie: po 2 s widać „Zapisujemy świat…”, a przy długim zapisie launcher zbiera informacje dla nas (samo czekanie na zapis się nie zmieniło).</li>
+    <li>Python (IDLE): uruchomione programy nie zostawiają plików __pycache__ w instalacji.</li>
+    <li>Lekcja z pierwszym programem w Pythonie (A2.U2.L8): nowy folder MyAdventures dostaje pusty hello.py; niezmieniony stary gotowy plik startowy zostaje opróżniony, programy dzieci są nietknięte.</li>
+    <li>Pobieranie od innego laptopa w klasie idzie kilkoma częściami naraz (szybciej na dobrym Wi-Fi).</li>
+    <li>Gdy pobieranie od laptopów w klasie się nie uda, launcher sam kończy je z internetu (w sieci zajęć najwyżej 200 MB; większe — do kliknięcia „Aktualizuj”).</li>
+    <li>Konwerter światów usuwa leżące na ziemi przedmioty, których gra nie zna (wcześniej zapisywały błędy „has no item”). Zapasowy konwerter (Python) robi to samo co główny.</li>
+    <li>Aktywacja aktualizacji sprawdza pełnym SHA-256 tylko pliki zmienione i pliki startowe (jak w .52-2, decyzja 247A).</li>
+    <li>Ściągi prowadzącego do lekcji A2.U2.L8 i A2.U4.L19 nadal opisują gotowy hello.py (poprawione zdania w .54).</li>
+    <li>Polecenia panelu są nadal jednorazowe.</li>
+    <li>Rzadki postój launchera na przygotowaniu misji (znany z .50/.51) pozostaje.</li>
+    <li>To wydanie sprawdzono testami automatycznymi i na komputerze testowym, bez laptopów w klasie: bramka klasy, pobieranie kilkoma częściami i dokończenie z internetu nie są jeszcze sprawdzone na sprzęcie.</li>
   </ul>
   <p><a href="wersje.html">Wszystkie wersje i pełna lista zmian</a></p>
 </section>
@@ -62,6 +69,6 @@
   <p>Jak uruchomić launcher, jak zaktualizować całą klasę przez Wi-Fi i co zrobić, gdy pojawi się komunikat o niezgodnej instalacji: <a href="instrukcja.html">instrukcja dla instruktora</a>.</p>
 </section>
 </main>
-<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.49 (10 listopada 2026).</div></footer>
+<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.53 (16 listopada 2026).</div></footer>
 </body>
 </html>
