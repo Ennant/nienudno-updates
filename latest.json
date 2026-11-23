@@ -1,13 +1,12 @@
 {
     "schemaVersion":  1,
-    "releaseId":  "9.7-complete55",
+    "releaseId":  "9.7-complete55-linux-clean2b",
     "version":  "9.7.0-complete.55",
-    "publishedUtc":  "2026-11-17T16:39:25Z",
+    "publishedUtc":  "2026-11-23T19:59:05Z",
     "highlights":  [
-                       "Lucky Blocki w lekcji pokazowej „Super Mario – pokazowa sprint” losują jak w oryginale (Lucky 7.6.0): nowe nagrody, imiona i skrzynie.",
-                       "Białe oczy zwierząt przy najniższej grafice nie wracają także wtedy, gdy paczka animacji Fresh Animations była wcześniej wybrana ręcznie.",
-                       "W Opcjach gry jest jeden przełącznik grafiki: „Grafika: Premium / Oszczędna” (bez osobnego „ładna/szybka”).",
-                       "Lżejsza woda i daleki teren: mniej pracy dla karty graficznej na słabszych laptopach, bez zmian w rozgrywce.",
-                       "Poprawione teksty, tabliczki i przedmioty w światach 12 lekcji (A1: L9, L11, L12, L13, L16, L24, L25, L26; A2: U1.L5, U2.L10, U4.L17; długa lekcja pokazowa)."
+                       "Debian: każda misja zaczyna się od świeżego świata. Po „Zapisz i wyjdź do menu” i ponownym wejściu misja startuje od początku, a nie z zapisanego stanu.",
+                       "Debian: kopie misji, które zostały po twardym wyłączeniu laptopa, launcher sprząta przy starcie; ich dzienniki trafiają do logs/misje.",
+                       "Debian: launcher sam sprawdza aktualizacje co 15 minut i pobiera je w tle, także w trakcie gry (z niskim priorytetem). Nową wersję proponuje tylko poza grą — po zakończeniu gry albo przyciskiem „Aktualizuj teraz”; „Później” włącza ją przy następnym uruchomieniu launchera.",
+                       "Debian: w ustawieniach (koło zębate) jest „Zbierz raport” — jedno archiwum z dziennikami gry, launchera, misji, sieci klasy i grafiki, zapisywane też na pulpicie."
                    ]
 }
