@@ -15,9 +15,12 @@
 <h1>Wersje i lista zmian</h1>
 <p>Najnowsza wersja jest na górze. Laptopy aktualizują się przyciskiem „Aktualizuj” w launcherze, przez Wi-Fi od innego laptopa w klasie albo programem z <a href="index.html">strony pobierania</a>. Opisy starszych wersji zostawiamy w oryginalnym brzmieniu.</p>
 <section class="card">
-  <h2>Spis wersji (45)</h2>
+  <h2>Spis wersji (48)</h2>
   <ul class="toc">
-    <li><a href="#v-9.7-complete54">9.7-complete54</a> <span class="badge">najnowsza</span></li>
+    <li><a href="#v-9.7-complete56b">9.7-complete56b</a> <span class="badge">najnowsza</span></li>
+    <li><a href="#v-9.7-complete55-linux-clean2b">9.7-complete55-linux-clean2b</a></li>
+    <li><a href="#v-9.7-complete55">9.7-complete55</a></li>
+    <li><a href="#v-9.7-complete54">9.7-complete54</a></li>
     <li><a href="#v-9.7-complete53">9.7-complete53</a></li>
     <li><a href="#v-9.7-complete52-2">9.7-complete52-2</a></li>
     <li><a href="#v-9.7-complete52-1">9.7-complete52-1</a></li>
@@ -64,9 +67,142 @@
     <li><a href="#v-9.4.8-powers1">9.4.8-powers1</a></li>
   </ul>
 </section>
+<article class="card release" id="v-9.7-complete56b">
+<!-- source: releases/9.7-complete56b.md -->
+<h2>Nienudno 9.7.0-complete.56 <span class="badge">najnowsza</span></h2>
+<p>Data wydania: listopad 2026. Do wspólnej gry w sieci wszystkie laptopy w klasie potrzebują .56.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>GRAJ zawsze odpowiada: gdy gra jeszcze się włącza albo launcher kończy inną czynność, pod przyciskiem pojawia się krótkie wyjaśnienie.</li>
+<li>STOP działa także u ucznia, który dołączył do świata kolegi. Przycisk „WRÓĆ DO GRY” przenosi go z powrotem do okna Minecrafta.</li>
+<li>RESET MAPY: misja wraca do stanu z początku lekcji bez zamykania Minecrafta.</li>
+<li>„Zapisz” w misji: po włączeniu rozegrany świat trafia do Światów. Bez włączenia misja zawsze startuje od czystej kopii.</li>
+<li>Grafikę i tryb okna można zmieniać w trakcie gry. Otwarta gra przełącza się sama w ciągu sekundy.</li>
+<li>Czuwanie: Minecraft czeka w tle, więc po kliknięciu GRAJ misja otwiera się od razu.</li>
+<li>Płynniejsza gra na słabszych laptopach: równe 60 kl./s z pełnym Lux na T430s. Daleki teren w nowym świecie dorasta w tle.</li>
+<li>Laptopy z Debianem same pobierają aktualizacje w tle i nie przeszkadzają przy tym w grze. Cofnięcie do starszej wersji jest trwałe: laptop nie wraca sam do wydania, z którego go cofnięto.</li>
+<li>Gdy prowadzący zamknie swój świat, uczniowie, którzy do niego dołączyli, wracają do menu z komunikatem „Server closed” zamiast błędu gry.</li>
+<li>Skrzynie z mebli (cfm) nie mają już czarnych wierzchów.</li>
+<li>Nowe światy z poprawionymi tekstami w lekcjach A1.U3.L15, A1.U4.L20, A1.U6.L28, A2.U1.L5, A2.U2.L6, A2.U2.L7, A2.U2.L10 i Zapas 2.</li>
+</ul>
+<h3>Gra i lekcje</h3>
+<ul>
+<li>69 nowych okładek misji.</li>
+<li>Super Mario (lekcja pokazowa) ma własny zestaw modów i świat. Wspólna gra w sieci działa też w tej lekcji.</li>
+<li>Jurassic i Tiara Hogwartu mają osobne zapisy. W Jurassic wrócił oszroniony lód, a brakujące tekstury, modele i dźwięki gra bierze z plików Minecrafta na laptopie.</li>
+<li>CYBER 1 i 2: poprawiony tekst pytania na tabliczce z kłódką.</li>
+<li>We Need Power: skrzynia z kodem stoi równo, a kwarc pod nią jest widoczny. Kod nadal otwiera schowek.</li>
+<li>ComputerCraft: komputery i monitory można stawiać w każdą stronę, a komputer z nazwą zachowuje swój numer.</li>
+<li>Wintercraft: zamrażarka pokazuje cztery właściwe miejsca i nie gubi zawartości. Kominek rani tylko wtedy, gdy się po nim chodzi, jak w oryginale.</li>
+<li>XL Food: niedojrzały ogórek i pomidor dają po zniszczeniu tylko nasiono, jak w oryginale.</li>
+<li>Meble w lekcji A1.U6.L28 łączą się jak w oryginale.</li>
+<li>Gdy uczeń sam kliknie „Rozłącz”, laptop nie dołącza go z powrotem do grupy. Gdy rozłączy go utrata połączenia z prowadzącym, laptop pamięta cel lekcji.</li>
+<li>Na Debianie działa pilnowanie grupy jak w Windows: laptop, który wypadł z grupy, sam do niej wraca.</li>
+<li>Nowe pozycje w Ustawieniach launchera na Debianie:</li>
+<li>„Zbierz raport” w sekcji „Raport i pomoc”;</li>
+<li>„Sprawdź Pythona”;</li>
+<li>„Sprawdź połączenie”;</li>
+<li>wybór skina;</li>
+<li>wyłączenie otwierania launchera po zalogowaniu;</li>
+<li>dodatkowe foldery z misjami, na przykład z pendrive&#39;a.</li>
+<li>Panel prowadzącego na Debianie ma pozycje „Dlaczego nie widzę innych?” i „Sprawdź połączenie z laptopami”.</li>
+</ul>
+<h3>Aktualizacje i porządek</h3>
+<ul>
+<li>Laptopy z Debianem sprawdzają aktualizacje co 15 minut. Pobieranie zatrzymuje się, gdy dziecko zaczyna grać, i rusza dalej od miejsca przerwania.</li>
+<li>Pytanie o instalację nie pojawia się w trakcie gry ani lekcji. Po kliknięciu „Później” zostaje tylko przycisk.</li>
+<li>Wydanie, z którego laptop cofnięto, nie wraca samo. Prowadzący może je przywrócić poleceniem aktualizacji z panelu.</li>
+<li>Program aktualizujący na Debianie odnawia się sam razem z wydaniem, po krótkim teście.</li>
+<li>Laptop, który pobiera aktualizację od kolegi przez sieć klasy, bierze niezmienione pliki z własnej wersji, więc w sieci idzie mniej danych.</li>
+<li>Paczki źródeł (licencje) zaktualizowane dla zmienionych modów.</li>
+</ul>
+<h3>Uwagi dla prowadzących</h3>
+<ul>
+<li>.56 zmienia mody 1.8.9. Laptopy z .55 pobiorą .56 i poczekają na „Zwolnij dla klasy” w panelu.</li>
+<li>Laptop .55 nie dołączy do świata laptopa .56 i odwrotnie. Przy grupie z innej wersji pojawia się „Ten świat jest z innej wersji – zaktualizuj laptop”.</li>
+<li>Na laptopach z Debianem pierwsza aktualizacja do .56 wejdzie po zamknięciu launchera albo po wypchnięciu jej z panelu. Kolejne pójdą już same.</li>
+<li>Świeży świat w 8 lekcjach: po aktualizacji dziecko przy pierwszym wejściu zaczyna lekcję od nowa, a dotychczasowy zapis trafia do archiwum. Lekcje: A1.U3.L15 The North Pole Defense, A1.U4.L20 Farming Paradise, A1.U6.L28 Blue Problem, A2.U1.L5 The Bomb Shelter, A2.U2.L6 A Little Bit of Wisdom!, A2.U2.L7 More Wisdom!, A2.U2.L10 Deserted Zombie Zone oraz Zapas 2 – Blue Problem.</li>
+<li>Komunikat po zamknięciu świata przez prowadzącego jest po angielsku („Connection Lost / Server closed”), tak jak w oryginalnym Minecrafcie.</li>
+</ul>
+<h3>Znane problemy</h3>
+<ul>
+<li>NIEPOTWIERDZONE: poprawka dla uczniów po zamknięciu świata przez prowadzącego nie była jeszcze sprawdzona w prawdziwej grze ani na laptopach.</li>
+<li>NIEPOTWIERDZONE: skrzynie z mebli sprawdzone przy prostej grafice. Grafika Normalna, Lux i shader oraz gra w sieci z nową wersją nie były sprawdzane.</li>
+<li>NIEPOTWIERDZONE: nowe funkcje launchera na Debianie (GRAJ, STOP u ucznia, RESET MAPY, Zapisz, ustawienia w trakcie gry, czuwanie, aktualizacje w tle) sprawdzone testami, a nie na laptopach w klasie.</li>
+<li>NIEPOTWIERDZONE: pomiar 60 kl./s zrobiono na wersji testowej Lux. Złożona wersja .56 nie była jeszcze uruchomiona w grze ani na laptopach.</li>
+<li>Gdy przy włączonym „Zapisz” na laptopie zabraknie miejsca, rozegrany świat misji może się nie zachować.</li>
+<li>Polecenia panelu są nadal jednorazowe.</li>
+</ul>
+</article>
+<article class="card release" id="v-9.7-complete55-linux-clean2b">
+<!-- source: releases/9.7-complete55-linux-clean2b.md -->
+<h2>Nienudno 9.7.0-complete.55 (poprawka Debian clean2b)</h2>
+<p>Data wydania: 23.11.2026. Poprawka launchera na laptopach z Debianem. Na Windows gra, lekcje i launcher bez zmian. Laptopy .51–.55 grają razem.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>Debian: każda misja zaczyna się od świeżego świata. Po „Zapisz i wyjdź do menu” i ponownym wejściu misja startuje od początku, a nie z zapisanego stanu.</li>
+<li>Debian: kopie misji, które zostały po twardym wyłączeniu laptopa, launcher sprząta przy starcie; ich dzienniki trafiają do logs/misje.</li>
+<li>Debian: launcher sam sprawdza aktualizacje co 15 minut i pobiera je w tle, także w trakcie gry (z niskim priorytetem). Nową wersję proponuje tylko poza grą — po zakończeniu gry albo przyciskiem „Aktualizuj teraz”; „Później” włącza ją przy następnym uruchomieniu launchera.</li>
+<li>Debian: w ustawieniach (koło zębate) jest „Zbierz raport” — jedno archiwum z dziennikami gry, launchera, misji, sieci klasy i grafiki, zapisywane też na pulpicie.</li>
+</ul>
+<h3>Bez zmian</h3>
+<ul>
+<li>Treść lekcji, światy i mody są takie same jak w 9.7.0-complete.55.</li>
+<li>Wolny świat i światy Pythona/laboratorium zostają między uruchomieniami, jak dotąd.</li>
+</ul>
+</article>
+<article class="card release" id="v-9.7-complete55">
+<!-- source: releases/9.7-complete55.md -->
+<h2>Nienudno 9.7.0-complete.55</h2>
+<p>KANDYDAT (dry, niewydany). Data wydania: listopad 2026. Laptopy .51–.55 grają razem.</p>
+<h3>Najważniejsze</h3>
+<ul>
+<li>Lucky Blocki w lekcji pokazowej „Super Mario – pokazowa sprint” losują jak w oryginale (Lucky 7.6.0): nowe nagrody, imiona i skrzynie.</li>
+<li>Białe oczy zwierząt przy najniższej grafice nie wracają także wtedy, gdy paczka animacji Fresh Animations była wcześniej wybrana ręcznie.</li>
+<li>W Opcjach gry jest jeden przełącznik grafiki: „Grafika: Premium / Oszczędna” (bez osobnego „ładna/szybka”).</li>
+<li>Lżejsza woda i daleki teren: mniej pracy dla karty graficznej na słabszych laptopach, bez zmian w rozgrywce.</li>
+<li>Poprawione teksty, tabliczki i przedmioty w światach 12 lekcji (A1: L9, L11, L12, L13, L16, L24, L25, L26; A2: U1.L5, U2.L10, U4.L17; długa lekcja pokazowa).</li>
+</ul>
+<h3>Gra i lekcje</h3>
+<ul>
+<li>Przy wejściu do świata na czacie nie pojawia się już angielski komunikat „CustomNpcs installed” z linkiem; gra nie łączy się też w tej sprawie z internetem.</li>
+<li>Walizka SecurityCraft działa jak w oryginale (lekcje A1.U1.L6 i A1.U5.L21): kod, schowek na 12 przedmiotów, zawartość zostaje po ponownym otwarciu.</li>
+<li>Gdy dziecko zniszczy mebel ze schowkiem (szafka, lodówka, skrzynka), jego zawartość wypada na ziemię jak w oryginale, zamiast znikać.</li>
+<li>Lekcja A1.U7.L30 (Jurassic): wracają prehistoryczne zwierzęta, jaja i bloki z oryginalnego moda.</li>
+<li>Lekcje z MasterChef: sopel lodu (chef:ice_shard) jest zwykłym przedmiotem gry i nie znika ze świata.</li>
+</ul>
+<ul>
+<li>Gdy słabszy laptop sam obniża grafikę, gra przełącza się płynniej (krótsze przycięcie), a liście w grafice Premium kosztują mniej pracy.</li>
+<li>Gra zapisuje w swoim dzienniku (latest.log) krótkie podsumowanie długich klatek, żeby łatwiej znaleźć przycięcia na słabszych laptopach.</li>
+<li>Laptop nie dołączy do świata kolegi, który ma inny zestaw modów (np. starszą wersję Nienudno): przycisk przy grupie jest wyłączony, a obok pojawia się „Ten świat jest z innej wersji – zaktualizuj laptop”. Panel prowadzącego też nie dosyła takiego laptopa do grupy.</li>
+<li>Cel lekcji ustawiony przez prowadzącego i pilnowanie grupy wygasają po 60 minutach (było 90), żeby nie przechodziły na następną lekcję.</li>
+<li>Gdy laptop w tle przygotowuje inną misję, nie usuwa już przerwanego, niezapisanego świata dziecka; porządkowanie starych światów działa tylko po kliknięciu GRAJ.</li>
+</ul>
+<h3>Aktualizacje i porządek</h3>
+<ul>
+<li>Opis „Co nowego” po aktualizacji i na stronie bierze tylko punkty z sekcji „Najważniejsze”.</li>
+</ul>
+<h3>Uwagi dla prowadzących</h3>
+<ul>
+<li>Laptopy z .53 i .54 pobiorą .55 i poczekają na „Zwolnij dla klasy” w panelu (zmieniają się mody 1.8.9). Laptopy z .51 i .52 zaktualizują się jak zwykle.</li>
+<li>Świeży świat w 12 lekcjach: po zmianie tekstów dziecko przy pierwszym wejściu zaczyna lekcję od nowa, a dotychczasowy zapis trafia do archiwum. Lekcje: A1.U2.L9 The Bridge Builder, A1.U2.L11 Diamond Diggers, A1.U2.L12 Rescue the King!, A1.U3.L13 No More Fun!, A1.U3.L16 Let&#39;s Rank Up!, A1.U5.L24 Kitchen Revolutions, A1.U6.L25 Neverending Winter, A1.U6.L26 Tsunami, A2.U1.L5 The Bomb Shelter, A2.U2.L10 Deserted Zombie Zone, A2.U4.L17 Lost Saga oraz długa lekcja pokazowa. CYBER 1 i 2 dostaną świeży świat dopiero, gdy ich poprawki wejdą do wydania.</li>
+</ul>
+<h3>Znane problemy</h3>
+<ul>
+<li>W grafice Premium ściana pod skrzynią z kodem bywa niewidoczna (zgłoszone też w .54; sprawdzamy). Falujący kwarc ze szczelinami z .54 jest w .55 poprawiony.</li>
+<li>NIEPOTWIERDZONE: wspólna gra laptopów z różnymi wersjami (.54 i .55) nie była testowana w klasie; launcher .55 blokuje dołączenie do świata z innym zestawem modów, laptop .54 sam tego nie sprawdza.</li>
+<li>NIEPOTWIERDZONE: Jurassic sprawdzony w Pilocie w kontenerze testowym, nie w układzie wydania ani na lekcji.</li>
+</ul>
+<ul>
+<li>Aktywacja aktualizacji sprawdza pełnym SHA-256 tylko pliki zmienione i pliki startowe (jak w .52-2, decyzja 247A).</li>
+<li>Polecenia panelu są nadal jednorazowe.</li>
+<li>NIEPOTWIERDZONE: nowe tabele Lucky i sopel lodu sprawdzone w testach i Pilocie, nie na lekcji z dziećmi.</li>
+<li>NIEPOTWIERDZONE: wygląd lżejszej wody czeka na ocenę Filipa; poprawione światy wczytują się czysto, zadań lekcji nie przechodzono.</li>
+</ul>
+</article>
 <article class="card release" id="v-9.7-complete54">
 <!-- source: releases/9.7-complete54.md -->
-<h2>Nienudno 9.7.0-complete.54 <span class="badge">najnowsza</span></h2>
+<h2>Nienudno 9.7.0-complete.54</h2>
 <p>Data wydania: listopad 2026. Świat i rozgrywka bez zmian względem .53; laptopy .51, .52, .53 i .54 grają razem.</p>
 <h3>Najważniejsze</h3>
 <ul>
@@ -1054,6 +1190,6 @@
 <p>Aktualizacja używa podpisanego kanału internetowego i pobiera brakujące pliki. Licznik weryfikacji lokalnych plików może obejmować całą instalację (~4.3 GB); nie jest to rozmiar nowego moda ani sam transfer internetowy.</p>
 </article>
 </main>
-<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.54 (16 listopada 2026).</div></footer>
+<footer><div class="wrap">Nienudny Launcher Pro: strona z wersjami, listą zmian i instrukcją dla instruktorów. Strona nie używa ciasteczek, skryptów ani liczników odwiedzin. Stan kanału aktualizacji: 9.7.0-complete.56 (24 listopada 2026).</div></footer>
 </body>
 </html>
