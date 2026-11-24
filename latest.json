@@ -1,12 +1,19 @@
 {
     "schemaVersion":  1,
-    "releaseId":  "9.7-complete55-linux-clean2b",
-    "version":  "9.7.0-complete.55",
-    "publishedUtc":  "2026-11-23T19:59:05Z",
+    "releaseId":  "9.7-complete56b",
+    "version":  "9.7.0-complete.56",
+    "publishedUtc":  "2026-11-24T11:47:57Z",
     "highlights":  [
-                       "Debian: każda misja zaczyna się od świeżego świata. Po „Zapisz i wyjdź do menu” i ponownym wejściu misja startuje od początku, a nie z zapisanego stanu.",
-                       "Debian: kopie misji, które zostały po twardym wyłączeniu laptopa, launcher sprząta przy starcie; ich dzienniki trafiają do logs/misje.",
-                       "Debian: launcher sam sprawdza aktualizacje co 15 minut i pobiera je w tle, także w trakcie gry (z niskim priorytetem). Nową wersję proponuje tylko poza grą — po zakończeniu gry albo przyciskiem „Aktualizuj teraz”; „Później” włącza ją przy następnym uruchomieniu launchera.",
-                       "Debian: w ustawieniach (koło zębate) jest „Zbierz raport” — jedno archiwum z dziennikami gry, launchera, misji, sieci klasy i grafiki, zapisywane też na pulpicie."
+                       "GRAJ zawsze odpowiada: gdy gra jeszcze się włącza albo launcher kończy inną czynność, pod przyciskiem pojawia się krótkie wyjaśnienie.",
+                       "STOP działa także u ucznia, który dołączył do świata kolegi. Przycisk „WRÓĆ DO GRY” przenosi go z powrotem do okna Minecrafta.",
+                       "RESET MAPY: misja wraca do stanu z początku lekcji bez zamykania Minecrafta.",
+                       "„Zapisz” w misji: po włączeniu rozegrany świat trafia do Światów. Bez włączenia misja zawsze startuje od czystej kopii.",
+                       "Grafikę i tryb okna można zmieniać w trakcie gry. Otwarta gra przełącza się sama w ciągu sekundy.",
+                       "Czuwanie: Minecraft czeka w tle, więc po kliknięciu GRAJ misja otwiera się od razu.",
+                       "Płynniejsza gra na słabszych laptopach: równe 60 kl./s z pełnym Lux na T430s. Daleki teren w nowym świecie dorasta w tle.",
+                       "Laptopy z Debianem same pobierają aktualizacje w tle i nie przeszkadzają przy tym w grze. Cofnięcie do starszej wersji jest trwałe: laptop nie wraca sam do wydania, z którego go cofnięto.",
+                       "Gdy prowadzący zamknie swój świat, uczniowie, którzy do niego dołączyli, wracają do menu z komunikatem „Server closed” zamiast błędu gry.",
+                       "Skrzynie z mebli (cfm) nie mają już czarnych wierzchów.",
+                       "Nowe światy z poprawionymi tekstami w lekcjach A1.U3.L15, A1.U4.L20, A1.U6.L28, A2.U1.L5, A2.U2.L6, A2.U2.L7, A2.U2.L10 i Zapas 2."
                    ]
 }
